@@ -11,19 +11,17 @@ plot(1:15, wss, type="b", xlab="Number of Clusters",
   ylab="Within groups sum of squares")
 
 
-fit <- kmeans(mydata, 4) # 5 cluster solution
+#fit <- kmeans(mydata, 4) # 5 cluster solution
 # get cluster means 
-aggregate(mydata,by=list(fit$cluster),FUN=mean)
+#aggregate(mydata,by=list(fit$cluster),FUN=mean)
 # append cluster assignment
-mydata <- data.frame(mydata, fit$cluster)
+#mydata <- data.frame(mydata, fit$cluster)
 
 
 
-#mydata <- na.omit(mydata)
-#mydata <- scale(mydata)
-#d <- dist(mydata, method = "minkowski") # distance matrix
-#fit <- hclust(d, method="ward") 
-#plot(fit) # display dendogram
+d <- dist(mydata, method = "minkowski") # distance matrix
+fit <- hclust(d, method="ward") 
+plot(fit) # display dendogram
 
 #library(mclust)
 #data <- na.omit(data)

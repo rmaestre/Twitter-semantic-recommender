@@ -55,6 +55,7 @@ def getConcepts(text):
 all_concepts = []
 user_concepts = {}
 user_vectors = {}
+threshold = 4
 
 # users = ['greghoweguitar.tsv', 'chickenfootjoe.tsv', 'Richie_Kotzen.tsv', 'stevelukather.tsv', 'AlexSkolnick.tsv',
 #          'mitsuhiko.tsv', 'zeeg.tsv', 'raymondh.tsv', 'chrismcdonough.tsv', 'kennethreitz.tsv']
@@ -63,6 +64,7 @@ users = ['greghoweguitar', 'chickenfootjoe', 'Richie_Kotzen', 'stevelukather', '
          'daveweiner', 'JBONAMASSA', 'tonymacalpine', 'peterframpton', 'vurnt22',
          'mitsuhiko', 'zeeg', 'raymondh', 'chrismcdonough', 'kennethreitz',
          'gsiegman', 'kantrn', 'alex_gaynor', 'pumpichank', 'jpellerin']
+
 
 for user in users:
     print "Analyzing user %s" % user
@@ -75,11 +77,30 @@ for user in users:
             if not concept in all_concepts:
                 all_concepts.append(concept)
             user_concepts[user][concept] = user_concepts[user].get(concept, 0) + 1
+    # Delete concepts below a threshold
+    for k, v in user_concepts[user].items():
+        if v <= threshold:
+            del user_concepts[user][k]
+    print user_concepts[user]
+    print ''
+    
+# Delete empty/users concepts from the index
+all_concepts_filter = list(all_concepts)
+for k in all_concepts:
+    for user in users:
+        if k in user_concepts[user].keys():
+            try:
+                print ' - Removing %s' % k
+                all_concepts_filter.remove(k)
+            except:
+                pass
+print len(all_concepts)
+print len(all_concepts_filter)
 
 for user in users:
     print "Creating vector for user %s" % user
     user_vectors['%s.tsv' % user] = []
-    for concept in all_concepts:
+    for concept in all_concepts_filter:
         user_vectors['%s.tsv' % user].append(user_concepts[user].get(concept, 0))
 
 f_vectors= file('data/vectors.tsv', 'a')
