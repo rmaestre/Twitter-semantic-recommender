@@ -1,0 +1,175 @@
+@julienphalip Be sure to checkout the fabric integration stuff in PyChef too, makes for a great orchestration helper!
+@julienphalip Saying Salt is in Python is a bit of a stretch, your actual configs are in Yaml, not Python.
+@julienphalip No, embrace the polyglot :-)
+@pacopablo @alecthomas Steam include the native Mac port now.
+Bastion is on sale for 60% off with its amazing soundtrack. http://t.co/nHUWMZIH
+PSA: document.write and document.writeln are off limits. Seriously. #jsrage
+@fnichol If you can find me a better JS impl that goes from raw text to _safe_ markup, I can try swapping it out. There aren't many though.
+@fnichol I don't think I can fix that easily as is :-/ Plan is to move back to a Ruby-based and GH-compat renderer eventually.
+@fnichol What does it show now? I'm just using some JS markdown impl I found in 20 minutes that looked like it worked :)
+@thedz Alternatively write the railtie to set it up and send me a pull req :)
+@thedz No, the rack middleware should work fine, just inject it yourself http://t.co/SNWdBQi7
+@thedz Do you need plain Ruby or Rails? raven-ruby works great for plain Ruby stuff, still working on the rail tie
+@flangy Pioneer Square and until Friday
+Off to Seattle. If anyone wants to meet up while I'm around, let me know!
+@bryanwb Want to send me the main pain points? I can add them to my epic :)
+@julienphalip Yep, the normal lucid boxes ship with Chef 0.10.2, old enough to break my recipes &gt;_&lt;
+Using Vagrant and Chef? Add 'config.vm.provision :shell, :inline =&gt; "gem install --no-ri --no-rdoc chef"' to your file. #protip #opschef
+Ira Glass emceeing Joss Whedon performing the commentary track to Dr Horrible. #nerdsingularity
+For whatever reason, while I'm reading http://t.co/QNC08B8t I am imagining they are all from @jessenoller's dog.
+http://t.co/nMfmUSWo #winning
+@fancy_free Definitely clueless about medicine too.
+@alecthomas Yeah, everyone there is apparently under strict orders to not talk about it, so I'm ignoring it :-)
+@alecthomas Reddit: Always something new.
+@ericflo http://t.co/bPqy8qBV
+Another night of writing docs means the PyChef 0.2 release must be getting closer. #soon
+@grabboxapp Any idea why grabbox will periodically just stop seeing new screenshots? Restarting the app doesn't help.
+@miah_ Code has well-defined semantics and a single (or small number of) interpreter to test on. English is poorly defined at best.
+@bkjones If you have questions, you know where to find me.
+OH: "he looks like a norse god, i just look like a viking"
+@lusis Stdout is a good _default_ logging dest, but you should really use the native configurable logger :)
+@theSeanOC That reminds me I need to get around to adding the auto-environment tasks in.
+@pumpichank Hint, git merge --no-ff solves much of complaints there.
+@LusciousPear Is "lost interest" an ending?
+@acdha Keynote
+@leahlionheart with or without harem?
+Anyone in the south bay up for board games in the park today?
+@getsentry ruby! Oh wait ... (also erlang)
+@kcunning @flangy awards shows are totally boss fights.
+@jacobian git merge --no-ff and nuke from orbit.
+@holdenweb @alex_gaynor tree fidy
+@fujin_ @dje @webframp @portertech Look at @miah's cleanup of mine too
+OH: "you keep using that word scalability, i do not think it means what you think it means"
+@someara That just made my day.
+@bkjones Check out the pypy one https://t.co/LN2D0itn
+@bkjones I don't know of a build pack, but you could probably make one.
+Food poisoning, I haven't missed you.
+Wise words from Reddit that apply almost everywhere: "Lastly, enjoy the fact that you work in an industry of make believe and magic."
+@mitsuhiko Oldie but goodie http://t.co/UY608UMN
+Finished Sequence (give or take some achievements I don't feel like dealing with), pretty awesome little rhythm/RPG hybrid.
+@ericflo I think I am thinking of pistl and/or tproxy
+@ericflo didn't he do that already?
+Anyone in the south bay up for board games in the park today? :)
+@rgov Yeah, or http://t.co/r1A6cDq0 has the right address.
+@rgov New York Pizza on Stevens Creek.
+@mllerustad When the dev and designer are 2 states away and limited to Skype and text chat, its somewhat more appealing :)
+@mllerustad Not so sure I agree, from the dev side an unrealistic mockup usually provides more insight into the goal than a "real" image.
+@noufalibrahim Minor note: Atari's tech staff sucked. &gt;_&lt;
+PSA: Buy this naoooo http://t.co/QgBrXHuC #noreally #doit
+@bshaurette +1, same reason I put up with Rails and Couch and the other crap we use, projects are awesome and the people are top-notch.
+@bshaurette I just wish I had all the code for this app, first time I've worked with zendguard and it is driving me up a wall.
+@bshaurette Also I spent quite of bit of this week writing PHP oddly enough.
+@bshaurette Give it another week, I'm sure someone will. ::hugs::
+@bshaurette I know your pain, /me glares at Rails.
+@gemnasiumapp Doesn't mean it can't be improved to be opt-in instead (and to remove the hook when you disable a repo).
+@daniellindsley Don't tempt me, I'm livid.
+Because @gemnasiumapp decided to install service hooks on every one of my repos: https://t.co/8pVTsFuh #rage
+@miah_ You know, a single-map, persistent world version of Outpost would probably make a pretty nifty HTML5 game. #notime
+@miah_ How about MOO and/or Outpost (1 more so than 2)?
+@miah_ as a former Hulk pilot, I beg to differ ;-)
+@miah_ Eve ;-)
+@freakboy3742 I went back to Mail.app, but I vastly prefer no badges. Herald will show me new mail every 30 minutes, it can wait.
+@freakboy3742 Totally a feature.
+@gdeglin Last I heard their big project was rewriting the whole site from (terrible) Python to Scala.
+@mitsuhiko Not counting aside, vagrant VM + FPM =&gt; .deb =&gt; reprepro
+Just donated to @travisci because they are crazy awesome. Every little bit helps! https://t.co/VGHfXi88
+@lhagemann No problem=time to renew your resume
+@jessenoller As a fellow non-drinker: +1
+@zeeg http://t.co/PQSD6jj4
+@lvh Well done, guess those tests did count in end!
+@julienphalip Usually soon followed by the question "Did writing that script take more time than the task itself?" #sunkcosts
+@julienphalip Here you go http://t.co/Hn4nhfvl :-)
+Survived SHBP with my psyche mostly intact, woohoo!
+@cwoodcox Send me a sample.
+@zainy So what you're saying is won far more than statistically average? #winning
+@katylevinson http://t.co/879jszsU
+@miah_ It is on the list to fix &gt;_&lt; never enough time.
+@ashemedai that's from a codegen, someone on reddit recognized it.
+@ashemedai I've always liked it, but I've always used MP3, not Vorbis.
+@ashemedai I've heard the decoder in FMOD isn't great compared to other formats, and Everyone™ uses FMOD.
+@dstanek Probably out of pre-created accounts, I only made 100 and I won't be refilling it. You can make your own Hosted Chef trial acct.
+@lusis Services-as-a-Service
+@moirne Why it exists? PyCon sprints + lack of sleep + hilarious!
+Dr. Sagan, we miss you.
+@jacobian Okay, continued righteous indignation seconded :)
+@jacobian I'm curious which project this is in response to, Rails.app or Hubcap?
+http://t.co/UsGlHRy6 #fail
+@mitsuhiko Use K-9
+@ericflo Pretty sure it was a drunken fish.
+@flangy 1 byte and good intentions.
+@zainy ::secretburgerhandshake::
+Bison burgers with onions and feta. http://t.co/bD6tjBk5
+@ubernostrum @kcunning http://t.co/DEbHkYY3
+Inbox 7, so close, but the sleep abides.
+Database fixtures, or as I like to call them ORM's biggest practical joke. #justdont
+Do I know anyone at @meetup? I need API help.
+No really, the solution to a social problem is almost never to add more technology.
+@ericholscher Aside from being crazy out of shape, I would be interested :)
+@solarce ME
+@r1chardj0n3s You can do the signup any time, you won't be paged until I re-enable your slot :)
+@r1chardj0n3s Speaking of which, can you ping me when you are back home so I can add you into the pager rotation :-)
+@bitprophet Welcome to The Commons, you can check out any time but you can never leave&lt;/sings&gt;
+@badluckkitten Amen
+@dougnap That was from sugar, not gluten. Birth control in motion.
+Things that are awesome: Michael Ansara's voice.
+How to stop being an asshole on the internet: Step 1) Stop being an asshole. Step 2) Repeat step 1.
+@jessenoller :-)
+I think Skyrim is officially no longer holding my interest. According to Steam I've played for just over 150 hours, so not a bad deal.
+@bitprophet It isn't programming, its a config file. As a sysadmin you should fear programming. #theonetrueway
+@jessenoller :P
+@ericflo @freakboy3742 Also, accent.
+@alecthomas Why the hell can I not get that in SFBA? I swear it is a conspiracy.
+@bshaurette @kcunning Both of you (and @pythonchelle) have been a great reminder of why I am proud to call you my friends :) #communityrocks
+@kcunning Main story on the tech section http://t.co/vBF3s7tF
+@bshaurette "Other than the first image this doesn't seem so terr…oh there it is, ::facepalm::"
+@bitprophet Can I sexually objectify you at least? That @bitprohet is so dreamy!
+@bshaurette Amen, sing it sista'
+@bshaurette Sorry, sarcasm ftl. Getting a bruise from so much face palming this week &gt;_&lt; Is it really so hard for people to not be assholes?
+@bshaurette But they're soooooorry. Clearly saying that makes it all better, rite?
+@katylevinson Any time! I'm still only a few minutes away.
+@dougnap http://t.co/6ILpCEC5
+http://t.co/Eh1O7VlW #lol #wat #fixit
+@katylevinson Let me know if you need a ride somewhere.
+@pythonchelle http://t.co/y2TYqujs Done
+@dougnap Congrats!
+@jhulten You are in my neck of the woods then :-)
+@hannahmitt ny4lyfe
+@zzzeek I love #7. Do it!
+@bengrue I want the ending to Minecraft changed, needs more Geth.
+@alex_gaynor Kill it with fire.
+@miah_ +1 :D
+@miah_ My old one is at https://t.co/6bvGfYqY (I know, I'm a terrible person for not spitting the repo).
+Think sexism in technology isn't an issue or is something to roll your eyes at when Twitter gets aflutter? http://t.co/iJktRNAp
+@lukeman  python -c "__import__('os').rmdir('~')"
+Beef "stir-fry" with broccoli and peppers, successful. I blame @jessenoller for infecting me with this whole meat and vegetables thing.
+@fujin_ (troll)
+@fujin_ Someone really needs to write an alerting layer for that ecosystem so nagios can DIAF.
+@freakboy3742 Dude http://t.co/ZjHS6k0U /me sends good vibes
+@benjaminws Order water, leave a $10 tip, fast way to get a bartender to love you.
+@bitprophet @andrewgodwin @kennethlove You rang?
+@vishcious The steps to make the EC2 server are both in the slides and the labs tab on the portal site.
+@vishcious What part of them?
+@bkjones Hover's DNS console allows it if nothing else :-)
+@bkjones Only because some DNS servers don't allow you to put a CNAME on the apex domain. The problem (AFAIK) is with A records, not apex.
+OH: "I think I've figured it out. @ericholscher is a wizard pimp"
+@hannahmitt Really I went to uni on the internet, I just happened to be at RPI at the time. #foss4lyfe
+@hannahmitt Yahr, four years in upstate New York &gt;_&lt;
+@hannahmitt @shazow Beats RPI's death trees http://t.co/GJrosmJS
+I am totally kicking butt at this adulthood thing today. #winning
+@hannahmitt Moar arts!
+@zeeg Scott Pilgrim The Game soundtrack, Bastion soundtrack
+Unsettling ex dream is unsettling. #stupidsubconscious
+@antirez Or, even better, this script http://t.co/apdNobUx
+@antirez Check out git cherry.
+@mikefiedler Better solution, use platform_family once it is available more widely :)
+@jessenoller Happy birthday dude!
+@jdunck Slides and handout are just boring PDFs :-)
+@jdunck No, it was a unique ID string for allocating hosted chef accounts (I pre-created 100 of them).
+@markimbriaco Clearly we need PaaSaaS
+@ashemedai Did you notice the CSS URL? http://t.co/vmR2q4hL
+@jessenoller Ask if they have a space heater
+@JZig #skinnersbox
+@leahlionheart Isn't that in the wrong direction ….
+The radio here is actually playing "Never going to give you up" #losingthegame #pwnd
+@limedaring Bookmarked!
+@limedaring If you find good ones, let me know :-)

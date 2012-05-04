@@ -1,0 +1,191 @@
+@peterhajas God they love highlighting stuff with red text.
+@jackdied @bitprophet I'm in neither camp.  You need both.
+Mmmm.  That really was the best BBQ I've ever had.  Kudos to @fwiles and @jacobburch.
+@diana_clarke So, for the record a friend of mine totally independent (and possibly first) invented that song when we were in the 8th grade.
+@kitchenettekat my assumption was that it crossed over from syn-ack, you'd need a nerdy linguist to be sure /cc @jtauber ;)
+@kitchenettekat in syn-ack it's still short for acknowledged
+@kitchenettekat I always considered ack to be more nerdy than corporate. (See syn-ack)
+@flangy who needs unsigned ints when signed overflow us defined.  #trollolololol
+Microbenchmarks matter, if for no other reason than so that people will stick around to run real benchmarks.
+@dabeaz They probably could, in Ruby they are unified.
+I got @crateio translated to 15% in Hebrew, you should contribute to translating it in your language! https://t.co/D5COgGL6
+@wesmckinn Modulo with negatives should just be undefined.  Makes my fucking head hurt.
+@peterhajas And city.
+@sontek That's fine, I disagree, but whatever.  But that's different from "its more bytes!!!!"
+@jterrace That would be a really great point if we weren't already running our javascript through a dozen minimizers that can do it for us:)
+@btriley 20-fucking-12.  Yeah.
+If your first argument in favor of tabs is size (in bytes), you're wasting my time. Actually if any of your arguments are bytes it's a waste
+@alonhorev Knowledge is power!
+@garybernhardt Yes, and it only covers 1.8.7, not particularly useful.
+I hear a lot of complains about Google's UI/UX.  Never once have I heard anyone say it was hard to use.
+@holdenweb Most places ban drunk driving, which while dangerous, isn't hurting anyone.  Let's just ban reckless driving.
+@holdenweb @mitsuhiko That makes it significantly harder to enforce, and means you have to wait for something to be a problem before you act
+@wizputer 1
+3600 lines of Python, and not a single except statement.
+@kitchenettekat If you told them you'd fallen off a fence they'd be asking questions.  Like why you were climbing a fence?
+PyPy used to have a thing called the timeshifter.  Now we have a blackhole.
+@garybernhardt whatever, just so it's an error
+@garybernhardt ruby scoping is interesting, I pity the implementors
+@zzzeek Well, the Python JSON lib chooses to return integers, but the spec doesn't have them, AFAIK
+@zzzeek No it does not, because Javascript doesn't have integers.  Everything is a float.  Enjoy.
+99% of the uses of the word intuitive could be replaced with familiar.
+Hmm, I think if you override Array#+ you could do hilarious things with multiple argument splats.
+@garybernhardt Do you intend to try to push any of this stuff upstream?
+@garybernhardt @ericflo Imply that Python was a Dutch attempt to rip off Sun's Java.  Ignore any and all chronological challenges.
+@ericflo @garybernhardt GIL is easy mode.  Hard core troll is to insult dynamic languages as a whole.
+Oooo, that feeling of complete confusion at someone else's engineer decisions.  It's been like a week since I've felt you.  I missed you!
+That project estimate was one for myself on a personal side project.  No client is getting billed out of it.
+Just estimated 17 hours for a project.  $20 says it's going to take &gt;40 hours.
+@flangy When in Ruby, extend every instance of a class with the same method.
+@idangazit I apologize in advance for the god awful grawings I'm going to send you.
+@garybernhardt I opened the file in my editor before I saw it.
+@kcunning kickstarter!
+New hobby: watching the counters go up on https://t.co/zFrQEGoc .  I should get a life.
+Loving https://t.co/OROFXGqj mostly because it shows I have the second best removed/added ratio :)
+@jacobburch I apologize, but http://t.co/5ltjSAUn is hilarious
+@jacobburch Yeah, please kick Orlando's ass so you can kick miami's ass.  kthnx
+@hmason because long island
+@jacobburch don't count us out....  But fuck
+I think the JIT is trolling me right now.
+O(n) sorting.  Buckets ftw.
+Oh, this is what it feels like when you get to the boring part.
+@brettsky We started at 2000x slower actually :)
+@mdznr @peterhajas @jeffhui Unfortunately I'll be right in the middle of an interview while it's happening.
+Survey on open source contribution, only takes a moment to fill out:  http://t.co/aBR0DcBX
+@peterhajas @jeffhui Sorry I'm going to miss it :(  Will there be a video this time?
+The point of statistics is that the result is as valid as the methodology.  Conclusion: never argue results, always methodologies.
+OH: " cool, just got $45mln from the bank of china; nice"
+@dabeaz @pumpichank RPython doesn't support list(string). :/  We should fix that, the list compr looks stupid.
+@voidspace @pumpichank iter(dict) will suffice :)
+I heard @toastdriven had accepted a $600 million contract from New York City.
+@gthank @pumpichank iter(dict) is equal to dict.iterkeys(); that is `for k in dict:` will suffice
+@pumpichank Why do people use iterkeys() ever ;)
+@dabeaz @kneath @jackdied summarized this well, "i hate code and want as little of it un my product as possible"
+@zeeg @jespern plan is Thirsty Bear Friday at 6:45 I think, /cc @ericflo
+@kitchenettekat thanks
+@kitchenettekat yup ill be up in the city the whole time, I'm here interviewing
+@kitchenettekat not long, just through Saturday morning
+San Francisco, I am in you.
+This plane has 300 people on it, how the fuck do your computers not know about it?
+United's computers don't know about our airplane.  Oh joy.
+@derekwillis I'm in the airport for an hour and a half.  Does that count?
+Dulles has 5 guys.  #winning
+@garybernhardt put a special bit in all files for each user
+@dabeaz @holdenweb You can introspect if you want, that's crazy ugly though.
+The TSA should compensate me for my toothpaste and soap.
+@fxdgear You're not stupid, in fact, you're likely very intelligent.
+@holdenweb It was meant entirely in jest.
+@Obdurodon @jessenoller FYI people who don't write compilers for fun all suck at programming.
+Also, it you really don't care, I highly recommend actually ignoring it.
+Guys, let's all talk condescendingly about the thing we're bad at.
+@jessenoller I think my favorite part was the Google vs. Heroku one.
+@richardhenry You can be on Quora though.  Works very well IME :)
+"The comment in no way represents the culture that we're trying to build."  Except the fact that we said it of course.  Please ignore that.
+@flangy .cpp and .h
+@holdenweb @jacobian 'He wasn't where we wanted to be, but he wasn't our enemy'
+@holdenweb @jacobian I heard some Vietnam era progressive activists on the radio what they said about kennedy has hung with me: [cont]
+@jacobian Not that it applies to you, but I've found facebook and apple fans to be incredibly anti-google, and vocal about it.
+@holdenweb @jacobian Their competitors turned up the mud slinging very effectively.
+@montylounge There aren't for most sports :( ESPN has one, but you have to be a preffered partner to get stuff.
+Just tried to read @Dropbox's terms of service.  I prefer legalese to this type of prose by a factor of 1000.  Legalese is more like code.
+Facebook takes "Move fast and break things" too literally.  The unlike button is literally broken.
+@garybernhardt Ah, you're talking about redis and the like?
+@garybernhardt They don't require you to, you can implement the network protocol yourself; most people would rather use a preexitsing lib :)
+I guess I should mention that it also uses 50% less RAM.
+@zedshaw Will be fixed for python 3.3 I believe /cc @briancurtain
+w00t, my optimization works: http://t.co/Dw90UFoB is 2x faster on my branch vs. pypy trunk!  w/ more room for improvement of course
+Protip: don't pipe VIM to less.  It doesn't do what you want.
+OH: "write [it] in PHP" "fuck you"
+Open source should run bake sales to raise money.  I would totally bake shit to sell for Django/PSF/PyPy.
+I think @fijall just learned a valuable lesson about unrolling 20k iterations of a loop.
+@mihasya Real Chicago sports fans don't watch hockey.
+@glyph Well probably, but no, this was just GCC being full of flail.
+@oh_rodr Yeah I found the issue, just amused at the uselessness of GCC.
+Sooo.... how is this line causing a segfault again? http://t.co/1rHSkxCT
+@justinlilly 15.4 in laptop?
+The Troy Record is a case study in how not to make a website.  Less than 20% of the above-the-fold space on an article is you know, article
+@garybernhardt Elizabeth.
+The answer was Acadians.
+What is the name of the ethnic group that moved from Montreal to New Orleans, it's close to "acacia" or something.
+@garybernhardt Arrays have a #last method, but no #penultimate.  That's bullshit.
+@holdenweb Saying @mitsuhiko is competent is like Einstein was clever.
+@garybernhardt @headius failing half the tests doesn't sound like it works to me
+Because APIs are generated purely mechanically and have no creativity, httplib and requests are the same.
+@brian_curtin Open Source comes to campus with @openhatchery
+At today's event people generated patches for: Firefox, Django, ITK, and others!
+OH: "image = Image.open(r'C:\femur.jpg')"
+Just committed the first patch I ever wrote for Django, while teaching people about contributing to open source!  Thanks @brosner.
+" 2 files changed, 68 insertions(+), 755 deletions(-)"  This didn't remove any features.  Nice work.
+@mitsuhiko how often do you use a hash table as a key?
+@mitsuhiko err, what are emit/parse here?
+@mitsuhiko Just iterate in arbitrary order, like a Python dict
+@mitsuhiko There are tons of algorithms where it isn't important; don't make those users pay the cost.
+@mitsuhiko Ugh, provide a way to do it, not by default though, wasteful of memory/perf if you don't need it.
+Bot going to lie, I'm pretty shocked by the devs who don't think APIs are copyrightable.
+Day 1 of teaching people OSS: success I think.
+@ncoghlan_dev https://t.co/0RHTFRU1
+My slides on communicating in open source: http://t.co/U6Pkw2eF
+Time for a day of teaching people about getting involved with open source w/ @openhatchery!
+I definitely have a slide titled Read The Friendly Manual
+@bitprophet some dude named tim wrote a fucking good sort algorithm for Python; java copied it.
+@bitprophet http://t.co/gbDJew5k
+Watching Google and Oracle fight about who wrote Timsort is cute.  Also, please don't sue PyPy for implementing Timsort, kthnx.
+@tkaemming Yes, the bytecode that's generated is deterministic.
+@tkaemming Try method calls for an example that's different.  On trunk, try a list comprehension.
+@mtigas @tkaemming @kennethreitz PyPy's bytecode is very similar to CPython's, it is in no way guarnteed to be the same.
+I love @ieure.
+Anyone happen to have a pure-C parser for Ruby that has a sane API?
+@jacobian Related idea https://t.co/Ay2yr6Ye works by dragging text documents onto the site.
+Idle observation: people who write unreadable code tend to write unreadable slides as well.
+@rtomayko What about the intensity of fucks.  Surely number isn't everything.
+ISTM Oracle's claim is that it's possible to release code under a different license than the API.  Do projects need to state an API license?
+Oracle put the copyright clause in their slides.... really?  Please tell me this is one of those "you had to be there" situations?
+"the JIT compiler was generated" will never stop being an awesome message.
+@peterhajas I haven't figured out what hte joke was, so I feel like a moron too :
+@peterhajas What's the difference between a wrench and Bruce Willis?
+@jtauber It's Palo Alto, some TV or another is getting background footage for a facebook/instagram/bubble/google segment every day.
+@dabeaz Oh.  No longer surprised or interested, sorry :)
+@dabeaz So a TV crew broke into your lair?
+@dabeaz Why?
+@brian_curtin Was instagram more or less than 2700 LOC?
+My 12 day old project is worth $76k according to sloccount.  Any buyers?
+The Soviet Union collapsed because of fax machines and Bruce Springsteen.  Discuss.
+I was mostly talking about the arithmetic error, but those who have noted that there's a missing 0 are of course also correct :)
+Biologists do math well.  See if you can spot the error! http://t.co/mOUr8RSr
+@jterrace Unclear if there'll be a curve yet.
+@jterrace Max was 11/14.  No one got an A.  Or a B for that matter.
+@dabeaz grr :)
+@jterrace Not in a long time, but I don't think the difficulty of the task has a bearing on the absolute quality of the result :)
+@dabeaz Any API changes?
+@wycats The CSRF protection is enabled by default (and has been for a few releases).
+@ptone happy birthday!
+@tnm It doesn't subclass RegularHorse or anythign?
+@jacobian @pythonchelle @ubernostrum Damn right, everyone who's participated in this discussion is an exception.
+@rhy0lite Being one to prefer a structural explanation to all things, I claim the mechanism of evaluation was broken, not the instance.
+Out of 14 multiple choice questions on an exam (1 pt each).  With 51 students, the media was 4.0, mean was 3.6, and the max was 11. wtf?
+I remember the first day @bfirsh and @andrewgodwin worked on @epiohq, I spent the day asking them: Can I tell it to deploy with my voice yet
+@jacobian @pythonchelle For life of me I can't remember why I'm getting a CS degree.
+Few things make me rage more than Javascript's failure to distinguish a hash table and an object.
+@youngproductz @rguillebert @mikepavone @headius Yes, the GCs are written in RPython.
+@mitechie need to be able to select ranges, don't think I ahve very special needs WRT percision
+What's the best implementation of something like: http://t.co/4bVlfh8B
+@jacobian how the fuck does that fit inside of the mare...
+@jacobian a) weird, b) that looks fucking huge, can we get a shot with scale?
+@jacobian waaaa, is that what baby horses look like?
+@brian_curtin Py_XDECREF
+@dabeaz I'd love a career writing compilers, just not parsers ;)
+@dabeaz If you havent, you should, everything is so glorious by comparison (Says the guy who can't get unary ops or attr assignment to work)
+@dabeaz OTOH, +1, OTOH: why would you possibly volunteer to wade back into parsers!
+@mikepavone @headius @rguillebert The GCs are mostly written in RPython, not C.
+@headius I think there are a lot of static language compilers that quality then.
+@headius gcc?  What do you mean by self-hosted impls?
+@jtauber yeah I do, they seemed like gimmicks then and they do now too
+@jtauber @kennethreitz was it useful then?
+@peterhajas Also Javascript!
+@gthank things like colors and weights to various data.  I want to just let JS compute it from data,but JS is le-slow.
+Annoying: browser is slow; do I precompute rendering info on the server?  It feels so wrong...
+@fwiles loops also cause me to switch.  really anything besides a linear sequence of commands
+http://t.co/VTCYLMZ6 is sporting the RPI colors today.  Neato.
+@joestump Well now I'm just hungry.
+@dabeaz No (though I am writing one ATM), just trying to tweet an interesting project to work on every week, last week was write an RDBMS.
+This Monday's coding project: build a VM: writer a parser, AST, compiler, interpreter, and object model. Create a language or impl an old 1!

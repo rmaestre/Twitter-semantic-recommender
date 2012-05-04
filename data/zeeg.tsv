@@ -1,0 +1,177 @@
+Hahaha never gets old. Thanks GitHub! http://t.co/WSOPRYJW
+@kneath had that same problem today. MAKES NO SENSE
+@mattrobenolt needed to be able to buffer jobs (e.g. can't have 1b jobs waiting to run)
+Scumbag Chrome, uses ALL of my CPUs just to open the "New tab" window
+Coming up with an API to distribute some work we currently run on single machines: https://t.co/u4gDOwXS
+@jamessocol is it kind of like a 404 request? or is this unrelated to HTTP? I only skimmed the page
+@jamessocol would this just be a new log record, or would it be its own kind of event/interface?
+@jamessocol not really familiar with CSP, but I'm not against some kind of extension to handle it
+Anyone want to guinea pig a Rails 3 client for Sentry?
+@rdegges why specifically a book on Heroku? Id say EC2 is just as (if not more) common for deploying, and deploying to Heroku is easy
+Ohhh yeah [pic] — http://t.co/Cm8qNaGp
+I'm at In-N-Out Burger (Daly City, CA) w/ 3 others http://t.co/b3XHw3PF
+I just reached Level 2 of the "Flame Broiled" badge on @foursquare. I’ve checked in at 5 different burger joints! http://t.co/ugIMb2Db
+@bleikamp flex that social profile. About the same reason you'd put anything I suspect
+@mwhooker wonder if big query can handle your mom
+@andymccurdy Adding some better support for Celery in Raven: https://t.co/Eq3MwVSR
+@bkonkle also something else that was brought to my attention: https://t.co/rXUsXhCD
+@voidspace The docs are more or less terrible. Look at https://t.co/GMvzzKd1 and put that in proj.app.gargoyle
+@bretthoerner What time? I have a redeye so I could grab a drink if you're not here too late
+@bretthoerner heading home (going to BigOmaha) for a week, as of Friday night
+@bretthoerner @thedz I'm jelly but I'll be living it up on franchise food next week
+@flashingpumpkin client side. I'd never choose this if I had another choice :)
+@bkonkle Also if you get time, would love to get your feedback on the origin implementation/changes: https://t.co/EtmieayX
+TDD can be very satisfying: http://t.co/as2QgGmV
+Learning how to write JavaScript tests. Remembering why I write Python.
+@bkonkle going to implement a bunch of new things for raven-js. Should have a pull request for you sometime this week
+Is there a good 15-minute guide on how CORS works?
+@andymccurdy but you can't actually raise that right?
+Trying to find a way to create a custom traceback object for an exception. So far no success
+@travisci re: pypy, this is why I'm asking: http://t.co/qzJ7YpiG
+@travisci Does PyPy work yet in builds?
+Scumbag rental car companies: http://t.co/qfK72uUN
+@kantrn +1 go write that shit @thedz :)
+A bunch of @FAKEGRIMLOCK posters just arrived at the office
+@thedz I think @kantrn almost has a working Ruby client
+@aknin actually it shouldn't be that bad. The main feed should still be really fast
+@aknin in theory it will be ok -- it at least won't explicitly not allow it. It could slow down some of your feeds though
+WTB house cleaning service in San Francisco. Recommendations?
+Scumbag spammers are now sending me text messages
+@noahkagan @ckj I think I was more drunk than Chris
+@amandanudelman don't be a pussy
+OH: fuckin Scott /cc @ohlol
+The Rye Guy (at Blondie's Bar &amp; No Grill) [pic] — http://t.co/4WzuWQyX
+@amandanudelman Blondies. Now. Gooooooooo
+I'm at Blondie's Bar &amp; No Grill w/ @northisup http://t.co/Egn7xLhH
+@adrianholovaty mission accomplished
+@noahkagan @ckj let's do it
+Moved our pip linting code into a separate package: https://t.co/Cuy0tRqM
+@thedz @bretthoerner fuuu neckbeard
+@thedz @bretthoerner +1 shut up nextbeard
+@jaysonsantos Honestly I don't remember. But you won't be able to get composite primary keys working in a way you want
+@jaysonsantos you should just give up on composite pks. Set the model to unmanaged and pretend they're composite indexes or drop the pks
+@jaysonsantos it hasn't been touched in years, and likely doesn't work at all
+@noahkagan @ckj going to be in the city at all?
+@noahkagan Don't burn it down too quickly?
+@mwhooker weak
+@alex_gaynor we bingecon'ing? /cc @jespern
+@mwhooker you still downtown?
+@SachaGreif @grokcode what about Sentry vs Airbrake ;)
+@Vitabee4ever When are you making those?
+Newest hack in our pre-commit hooks: http://t.co/Lm2sUZOl (ensure you are testing against listed requirements)
+@dstufft @mitsuhiko no :/
+@mitsuhiko is that.. a bug?
+@ncoghlan_dev @mitsuhiko Sentry is attractive :D
+@jorilallo Ya when I had mine I couldn't make any use out of it. Sold it less than 2 weeks after I got it
+@jorilallo Ya at that point you get much more bang for the buck. Once you start attaching things to the iPad it loses its value: mobility
+@jorilallo I feel like at this point you should just buy a Macbook :)
+Removing the last trace of *mongo* from the disqus-web repo
+@NorthIsUp ~20s in my test :)
+Adding magical only-create-the-db-if-you-cant-migrate behavior to the Disqus test suite
+I love that our customer support team knows how to use Sentry
+@jezdez @freakboy3742 it's almost as bad. I never found anyone to take it over so I've only pulled in very basic change sets
+@mitchellh @pharkmillups that's what we tried. That just doesn't seem scalable for something like Airbrake
+@pharkmillups would be curious how people make scalable lists in Riak
+@holman awesome gonna try out the updated play.coffee tomorrow
+@holman how do you guys configure the user's githubLogin? I added a comment so that users type "hubot my github is &lt;x&gt;"
+OH: @matmullen is the training wheels of DISQUS [foosball]
+Sentry in use at Kontagent (at Kontagent, Inc.) [pic] — http://t.co/jXfmEAte
+@mwhooker yep
+Not a bad view (at Kontagent, Inc.) [pic] — http://t.co/EpVAWu5K
+@paltman This is helping us move towards a smart test suite which will only bootstrap the db if migrations don't match
+@paltman Just sent another pull req up for nashvegas. This should be the start to something great :)
+The new GitHub graphs are sexy: https://t.co/MnamBMxy
+@jezdez But this is specifically using setuptools, so it's not really a big deal. (I don't do distutils fallbacks0
+Couldn't take the default Octopress theme anymore, switched to "slash" instead: http://t.co/Y8HlX40I
+@mjtamlyn does your site not contain a setup.py?
+@mjtamlyn why? what benefit does that serve?
+Sticking With Standards - The requirements.txt pattern http://t.co/6TZ1cF4b
+@holman Awesome. I hacked up a lot of stuff but it's super limited after my changes
+Ignite SF (@ Public Works w/ @northisup) http://t.co/rG0DDOOZ
+@kennethreitz side effect of them having no content
+@monokrome ya probably doesn't support Django 1.4
+@monokrome anything in console?
+@tanukifurry ya got everything else working now :)
+@tanukifurry Ya. Unfortunately it doesn't work. I rewrote a bunch of it so it works bare-bones
+@tanukifurry @tekkub you guys happen to have an updated play.coffee that works? :)
+@tanukifurry @tekkub Ya I'm launching with bin/hubot -a irc (is there a better way to launch? we're just going to run it locally on a mac)
+@tekkub @tanukifurry ya all I did was set IRC name and he seems to ignore that
+Hey GitHub guys, how do you change the command hubot responds to? (We want it to be his IRC nick)
+@fijall generally once it happens to Joe, he cares :)
+@kennethreitz Ya, it's an amazing album
+Bleed American [pic] — http://t.co/7YXylNiv
+Pretty envious of everything that is Valve after the reading a recent blog post and the employee handbook
+Was just turned on to the nyancat progress bar module: http://t.co/7DwJdrO1 #OMGWIN
+@ericflo gotta agree, thats pretty bold and awesome
+Really like the Play OS X client. Just needs some better UX feedback (and a way to close it)
+@adamstrawson and I sent one in. I'm not a Ruby developer. Don't preach to me how open source works.
+@adamstrawson bit late to the party: https://t.co/WDtg0LtK
+@github http://t.co/TmEkMsZk still shows Inbox: http://t.co/8ABcYxy6
+Got Play working with a couple of tweaks: https://t.co/koMi0HcN
+@mojombo if someone called out something I maintained, I'd try to address their problem. Not saying I'm in the right, but it worked
+@mojombo I will happily +1 open source things, but that shouldn't mean low quality
+@mojombo I sent up issues/pull requests, but it literally did not work at all out of the box
+@xpaulbettsx I filed two or three already, and sent a pull request
+@sumeet_agarwal :D
+@bleikamp Looks like if you don't explicitly select things in iTunes it just breaks (might just need README updates)
+@bleikamp As soon as I get it to work, learn Ruby, and care enough, I'll fix the thing so it actually runs :/
+Trying out GitHub's Play application. This shit is broken in every single way I can possible find. Terrible
+Anyone know of something like Dell's Ideastorm (e.g. Vote for X) thats hosted or OS? Looking for something for crowd sourcing features
+I'm at Molotov's (San Francisco, CA) http://t.co/EUqx8tMP
+This view never gets old (at Disqushaus) [pic] — http://t.co/GSNmhTN5
+That ocean (at West Coast) [pic] — http://t.co/FVHqYmdb
+Beautiful day (at Lands End Lookout) [pic] — http://t.co/txZhPeZ1
+@corbett_inc will do. I just assumed you were super happy that someone viewed your timeline ;)
+@corbett_inc I think somethings spamming your Twitter
+@kantrn I hear someones working on an awesome ruby client (and maybe erlang? :)
+@jwz you may be my hero
+@SachaGreif sorry for the late reply. Would love to hear your feedback on our newest iteration of the Disqus embed design/ux
+Scumbag muni
+@bretthoerner oh shit I know that guy
+@jarodl WFMotorcycle?
+@bretthoerner on my way over now
+@rdegges I'm on http://t.co/6K1PZBde in various places, davidcramer
+I claimed a Raptr Reward: Xbox 360 Ghost Recon: Future Soldier Beta http://t.co/JGCHkpcK
+@pavel_lishin need a license to be a zipcar member ;)
+@pavel_lishin need a license to rent one ;) I'm going to just get someone to rent one for me though and cheat the system
+@pavel_lishin ya I've always either owned a car or had a friend I could borrow one from to take it
+@kmactane yep, driving test
+@bretthoerner I think my plan now is to hijack someones rental for it
+@thedz I'm afraid to touch @gjcourt's car
+@bleikamp well there IS a driving test :P
+How does one get a license in SF without owning a car?
+@CiprianRPhoto unfortunately I don't believe Facebook allows you I export data
+@jb55 I've been wanting to try out Tera for a while. Hope it's good
+@stechico oh well, a little bit different. For me it was meeting a bunch of them in person and losing all hope
+@stechico the entire community that's part of Dribbble
+@tekkub definitely
+@stechico full of people who think too much of themselves
+@tekkub mostly accurate
+Tonight I learned how unfortunate Dribbble is
+@sashagrief One of our designers here at DISQUS told me you might have some ideas
+@mwhooker hate
+@bretthoerner you should come too. We can eat Steak and have a party in a corn field
+@kennethreitz please oh please let people respond with a Yes
+@bretthoerner I have no clue, but the speakers didn't seem the worst. I'm probably just going to be drunk w/ friends the whole time
+Found my excuse to go home for a week: http://t.co/lzBgXNt0
+@BigOmaha How does one get invited to this event? I need a good excuse to go visit the parents :)
+@nfluxx sparrow ftmfw
+@mojombo from the experience I've had with both, it gets a little bet in some areas, and worse in others (ES vs Solr). Still not great
+@jcroft @zeldman font-size is a bit unbearable (too large, not enough margins between paragraphs) on my 15" MBP
+Note to self: learn how git/octopress actually work
+Should probably learn how to use Octopress correctly at some point
+Using Arrays as Materialized Paths in Postgres http://t.co/a6VJaXKE #disqus
+Oh god, just broke GitHub
+@brainsik It was http://t.co/Csavf23K, but was able to talk a bunch after and their stack was almost identical to ours back then
+Really cool hearing the Instagram infrastructure story (at SF PUG). It's almost identical to how Disqus evolved early on.
+@kennethreitz @ielectric the JS guys tell me it shouldn't be Disqus related
+@argv0 yo come help us make riak work. I'll feed you beer
+@mwhooker not sure if serious or being sarcastic
+For being so adamant about testing, I am terrible at code quality
+Take off your pants... and jacket (with Mike at Disqushaus) [pic] — http://t.co/I3Hcp0Aa
+@mikeyk great talking shop tonight. We should make a lunch happen sometime before you all head south
+@ncoghlan_dev I just want pass on some of my "seriously?" reaction back at them
+Fine TechCrunch jouranlism http://t.co/maAD2p68
+Trying to find a way to auto-respond to all recruiters asking if I'm "qualified for X" with "gtfo my inbox".
+@sparrow any chances of getting the "mark spam and unsubscribe" functionality into the Sparrow client?
+@zznate @bretthoerner pfft, nature

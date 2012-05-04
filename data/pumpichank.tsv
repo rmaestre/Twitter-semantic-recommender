@@ -1,0 +1,162 @@
+@ncoghlan_dev please do!  that's great, thanks
+Are you an open source/free software translator?  Please get in touch!  We need to figure out Mailman 3's translation machinery.
+minor api break in dbus-python 1.1 coming for py3: dbus.gobject_service -&gt; dbus.gi_service
+Python 3.3 alpha 3: http://t.co/NB8aJrD3
+Happy Mailman Day!
+i have a clone army.  why doesn't anyone have a clone navy?
+@voidspace yeah, i try to avoid 2to3 :)
+@gthank it makes it harder to support 2 &amp; 3 with one code base.  let's get to a world were we don't care about py2 anymore :)
+@voidspace right, semantically i agree.  syntactically, it's just a pita (remember, i don't like 2to3 :)
+carrying on 4 conversations in email, twitter, fb, irc keeps me young
+@voidspace is it?  how?
+@gthank so .keys() i can almost see if you really want to be explicit (i don't), but why .iterkeys()?
+@dabeaz yeah, i see it all the time in code i'm porting to py3.  i don't get it
+@voidspace it's almost always unnecessary and it makes porting to py3 harder.  it avoids concrete lists, but the savings is usually minimal
+@flubdevork hahahah! :)
+why do so many people use .iterkeys(), .iteritems(), and .itervalues() when they don't need to?  plus, they don't exist in py3
+git madness #412: git add -u
+oh how nice.  hey spammer, stop trying to unsub me from the mailman lists!
+@pauricthelodger see the legend on this page: http://t.co/VS6qwE5f
+Python 3 plans for Ubuntu 12.10 Quantal Quetzel: http://t.co/gTWShN2S
+Eric Smith prototype of PEP 420.  With importlib diff is "a couple of dozen lines long".  Wow. Just wow.
+selene nails it when it comes to bzr over git.  http://t.co/5cNY2K3Y
+Ubuntu is committed to Upstart.  +1 http://t.co/f0u9Gvat
+My suggest of Qwazy Quahog did not win (unsurprisingly :) http://t.co/f0u9Gvat
+@brettsky server error
+@terriko not the black kind ;)
+@terriko my cousin in german makes wonderful sk and kombucha.  i tried with both but failed (due to mold). for commercial, bubbies rocks
+@terriko looks delicious! but can it beat bubbies (best saurkraut ever so far :)
+Okay, that was *freakin'* cool.  I saw Discovery's flyby!  Went by fast and our open sky is so small, I don't think the pictures worked
+OH #ubuntu-devel: qwazy quahog makes baby jeesus qwy
+just when i was running out of possibilities with my naming theme! http://t.co/aCt6MJ5X
+@jkakar how right you are.  Alt is just way too overloaded.
+@r1chardj0n3s welcome to the joys of the usa passenger train "service"
+@jkakar ug, single worst pain i'm experiencing these days.  hope it becomes configurable before final release!
+@petrillic friend of mine saw that show too and loved it.  #screenkissbassline
+soon, very soon...
+@petrillic of course!  time to start on python 4
+new python docs theme?  yeah, no possibility of bikeshedding on that
+@voidspace oh sigh #pep417 of course!
+@voidspace i am so hearting mock right now #pep407
+@pumpichank make that @florianfuchs :)
+@pumpichank have to thank @florian_fuchs for that one.
+@dougnap thanks for all your truly awesome work in making pycon 2012 the best evar.
+"Postorius" is the new name for the Mailman 3 web ui.  Who can spot the reference? :)
+#pycon #mailman3 sprint going great!  todo list growing :)
+@terriko Uh oh.  I hope I didn't break Py2.6 support.  I only want to do that when we switch to #python3 :)
+@petrillic Keep them as proof for when the RIAA police break down your front door.
+#mailman3 sprinters #pycon: i'll probably be down in the room by 9:30, but we won't start officially until 10am tomorrow.
+best #pycon ever... over!  let the sprints begin.  mailman3 sprint starts monday at 10am local time.
+@carljm unfortunately no
+Killer py3 app. Django 1.5 in the fall supporting up to py 3.3
+@ncoghlan_dev almost. Neither cheese shop has *cheese*. &lt;wink&gt;
+@carljm georg is 3.3 rm
+@ncoghlan_dev Let The Googles do its thing for finding the catalog of Python packages.  Cute is not always bad!
+@ncoghlan_dev OTOH it's just a name.  CPAN means nothing so there's zero intuitive connection from Perl Package -&gt; CPAN.
+@ncoghlan_dev Really?  Why?
+#pycon don't forget you *lose* an hour of sleep tonight at 2am.  #dst begins
+@ncoghlan_dev I'm on a mission to resurrect the Cheeseshop name.  As predicted, it's impossible to distinguish the homonyms.
+http://t.co/vSmYMikc #pycon YAY!  but can we all please go back to Cheeseshop instead of PyPI?
+#python saw @marksapiro and @florianfuchs.  Gaining critical mass for upcoming Mailman 3 sprint.
+@r1chardj0n3s Freaking awesome.  Wanna jam on a Python theme song? :)
+#pycon at the web summit.  interesting discussions about packaging.  py3 (which i'm moderating) is up in 30m
+@jessenoller @pydanny @dabeaz yes, but *much* more friendly to dietary restrictions.
+@jessenoller @pydanny @dabeaz I appreciate the difficulty w/catering, but are buffets (with ingredient lists) at all possible?
+OH #pycon @gvanrossum ""after 20 years we've finally found a use-case for freeze"
+OH #pycon @gvanrossum "most people don't know where the language ends and the library begins"
+If any locals coming to #pycon can pick up a bottle of low sodium Tamari, I would buy you a beer while we eat sushi together :)
+@voidspace default python will probably stay sync'd with debian (i.e. 2.7) but we'll hash that bit out at UDS in May.
+Python 3 only on the Ubuntu 12.10 CD (that's the release after this LTS).  Port, port, port!
+Getting close?  I think so!
+@brettsky my drummer has the tdi wagon and loves it.  we've had a '99 passat and it's still (mostly) working.  nice cars :)
+@voidspace i think that's just a polite way of saying "some old f*ck"
+This looks very cool.  Easy setup of your mail accounts: http://t.co/4UZafzKv  and open source too.
+I am famous now: http://t.co/SVPEB8dB
+@nedbat all we really need is  ur'hi'
+so, python 3.3 is going to put the 'u' back in 'unicode'.
+@jessenoller	you rock!
+python release candidates fixing hash security issue coming rsn for all stable releases.  we'll need testers!
+i think we may actually see release candidates for python's hash randomization fixes rsn http://t.co/oJPsiq8S
+@jessenoller i have lots of original music i could probably get you at least a cc type license for.  email me?
+if your first email to me is full of curses and insults, don't be surprised if you never get a response, even if i could have been helpful
+oh, i am *really* liking the new blue indicator color scheme
+"extreme experience i've had as a programmer"?  maybe that time i helped tom cruise hack into the nuclear diamond farm in fort knox...
+@dohbee finding that reliable betamax player is the problem :)
+@petrillic awesome, thanks for the pointer
+does anybody know of a reliable service or product to convert a betamax tape into a dvd?
+5 minute guide to getting the Mailman 3 web ui running: http://t.co/Knl44Fqk
+#pycon2012 is shaping up to be so amazingly awesome, but i really need to finish my clone army in time so "i" can see everything
+@voidspace i can't decide if that's  an oxymoron or a tautology
+thanks to everyone in ubuntu for my election to the developer membership board!
+So our galaxy is "humming with myterious microwaves"?  It's clear someone wants to eat us like popcorn.  Did you hear that ding too?
+@tpherndon let's be sure to meet up at #pycon and do some pushing.  we can start easy. :)
+@ncoghlan_dev yeah, i'm still not a fan of pep 410 as written #python-dev
+@dougnap that will probably be perfect, as long as they're not locked at 6am :)
+you should blow your child's mind at least once a day
+@tpherndon nice.  i did yang long *years* ago. been doing yang short for about 10 years (plus push hands and sword form). do you push?
+Vote for your favorite questions @ Pycon web summit: http://t.co/vnDGvtq4
+@voidspace yeah. it's a great time but as a semi-pro musician, i definitely understand.  otoh, tai chi is best on 1hr of sleep :)
+@jessenoller any chance we can get access to an empty-ish room in the mornings for taichi/yoga?  and can i sign up for 6am taichi slot?
+this comment makes me sad: http://t.co/Pw8TABpq
+@voidspace really?  wow. i love my msnk.  plus it's cheap :)
+Why do gmail replies always look so horrible in every other mail reader?
+Kind of scary that in 7 months, I've deleted nearly 100k email messages.  I'm thinking I need to empty my trash folder.
+pycon 2012 capped at 1500 attendees, and almost sold out?!
+My class on Ubuntu Distributed Development (UDD) starts in 7m on freenode #ubuntu-classroom: http://t.co/fjkdQHUP
+I'm giving a class on Ubuntu Distributed Development (UDD) today at 1900 UTC: http://t.co/fjkdQHUP
+Happy 2112 day all you Rush fans! http://t.co/6bA2X4RD (and happy Mailman day too)
+Happy birthday Guido van Rossum!
+@pumpichank make that C-= in rst-mode
+Just discovered M-+ in Emacs's rst-mode.  Wow!
+@alex_gaynor that makes me sad! ;)
+@jessenoller \o/
+@jessenoller why is there no link from the pycon 2012 front page to the sprints page?
+Three new tunes uploaded to http://t.co/Y9n3c9kH
+I just heard from another Mailman core dev attending Pycon and sprinting on Mailman 3.  You should join us!   http://t.co/B5ZnRGVO
+Me: "it's gonna be coooool!" Max: "it's gonna suck"
+dbus-python 1.0.0 released upstream with my python 3 changes: http://t.co/srpRTnTz  now to see about packaging that for debuntu
+Yay!  Looks like I made it through the Precise X transition with my desktop intact.
+Another reason to love Showtime's "Shameless": the theme song rocks, especially the bass line: http://t.co/uHPItnDb
+@jorendorff but we didn't use dicts to implement it. :)  dict ordering has been undefined for *forever* :)
+@jorendorff when we designed the dict-like api for email.Message objects, we explicitly documented order is preserved.
+Yes, we know that http://t.co/7AR4or8g is down.  No ETA yet on when it will be back up.
+pypy users: 1.7+dfsg-5 is now available in my PPA: http://t.co/PQltZQh4  please test it.  Let's get PyPy into Ubuntu 12.04!
+Hey Pythonistas: you know you cannot rely on dictionary order, right?
+max and i want to know: what is *your* burpword?
+New article on Debian packaging for Python 2 and Python 3: http://t.co/VxFmHvXE
+feedparser 5.1-0ubuntu2 uploaded, now with freshly homemade python 3 support
+Hey Python 3 porters, thanks to Colin Watson, "six" is now in Precise: http://t.co/XDF8gGSe
+feedparser's test suite seems, um success challenged
+@jessenoller "protects consumers" hahahahahahahahahahahahahah
+@terriko i never had the chance to meet him, but he was always so nice in email, and a great contributor.  very sad.
+@maco_nix it does indeed :/
+Today's lesson: do not type `shutdown -h now` accidentally in a root schroot.
+Sad news: highly influential Japanese open source dev and Mailman contributor Tokio Kikuchi has passed away: http://t.co/HMv4iB5g
+Hey #udd Ubuntu developers.  When the new bzr and bzr-bd lands in Precise, you will love it.  Sane merges w/quilt patches!
+Python 3 porting redux: http://t.co/TOuUlPGm  Now heading to Budapest for more porting and other stuff w/my Ubuntu engineering colleagues.
+New dbus-python w/python3 support uploaded to PPA: http://t.co/PQltZQh4 (may take a while to build).  Please double check!
+#rcn just did a big swap of our #tivo gear.  I now have a TiVo-quad plus two satellites.  More disk and tuners, better u/i... and cheaper!
+You are awesome, Tracy Morgan
+@freddrake it's not actually crazy though.  i'd love for packaging to fail if there are unit test failures.  we try to do this in debian
+it seems impossible to support `python setup.py test` and `python -m unittest discover` so all tests get run exactly once :(
+time for my annual "remind me how to generate new self-signed certificates" connundrum
+sbuild users: when you upgrade to precise, if you were using aufs, switch to overlayfs.  the former is gone.
+yay.  more python 3 bytes/str porting madness.  this time, email headers/addrs, re, etc.  stay tuned for blog post redux
+@voidspace be sure to open source the code :)
+1-for-3 #pycon talks accepted, which is fantastic, and about what i expected.  #mailman3 was the lucky winner.
+@ncoghlan_dev it does appear to ;)
+progress made on dbus-python test suite failures: http://t.co/skIoiqqn
+@jgderose: nothing yet on lpbug 905085.  i'm keeping a browser window open on it though!
+oh, and give that derived class some methods and a docstring
+here's some fun: define a class that derives from two classes with different metaclasses, and make it work in py2 and py3
+Vanessa at Amazon, you did a beautiful, kind thing for my son tonight.  Thank you where ever you are.
+@jgderose Off hand, I don't know, but I'll look into this tomorrow. Hopefully we can make it work!
+@petrillic The terrorists have already won.  Talk about asymmetric warfare.  Sit back and watch us destroy our own principles. Cost: $0
+Final gear question of the season: iPhone4S.  Verizon, ATT, or Sprint?
+@maco_nix i've been an independent since 2008.  i'll look at 3rd parties for 2012. i really wish we had viable options. :(
+The Dems must love spelunking 'cause they're so good at caving.
+YYZ now available.  WANT.  http://t.co/QToOte4V
+@akuchling thanks andrew.  the online git docos are pretty good.  i think i get it, but that doesn't mean i like it :)
+@voidspace it's *only* so upstream will have an easier time with the patches (some already applied!).  git, like hg, is so brain-hurty
+python3 dbus port in a &lt;gulp&gt; git repo: http://t.co/g7pZ1ues
+@pumpichank er, on an ecryptfs $HOME

@@ -1,0 +1,149 @@
+@ericflo not trolling.. the inbox code is based on the stdlib smtp module, which is based on asyncore already.
+@kennethreitz eventlet?  is this just not like.. asyncore?
+@kennethreitz why bother making people compile the c extensions to gevent just to diddle select()?
+every time i use a framework or library i wrote i close my eyes and pray that the old me was smarter than the new me
+@ncoghlan_dev @brandon_rhodes that intersection of tech (logging + django) is all about the globals i think, for better or worse
+@brandon_rhodes cloudmacs?
+@philikon i'm too big of a douchebag for a blameless twitter audience to get the full assault, i suspect
+it makes for a more pleasant environment when irc channels disallow cursing..  but where else am i supposed to vent?
+@garybernhardt http://t.co/44QgukO7 may help
+@ncoghlan_dev yeah those make sense and are definitely convenient
+@ncoghlan_dev looking at pulpdist a bit.. does it offer up an API that is meant to be subclassed?  it doesnt appear so.
+@ncoghlan_dev do you mean the stuff in _abcoll.py?
+@zzzeek nah.. but the dude makes more arguments for sane composition (e.g. forms not tied to models) than he does for language features
+@ncoghlan_dev is there a particularly well-designed subclassing api you'd recommend looking at?
+@zzzeek that original article struck me as not so much an argument for haskell as for decomposed frameworks
+@zzzeek say this after hearing a norwegian say "we" about his legal system.. can't remember the last time i said "we" about anything USA
+the job of a politician should be to maximize the number of people who he includes when he says "we"
+@brandon_rhodes ha, not so subtly sent that along to maybe get your thoughts ;-)
+@brandon_rhodes i think "codependency" is a reasonable term (at least that's what i'm using in https://t.co/oGTNEgxa )
+@brandon_rhodes ... but but brandon.. but..... &lt;okay&gt;
+is there a name for the antipattern where you're encouraged to subclass from a class that has overrideable methods which call each other?
+@whitmo @brandon_rhodes not more more sane recently, i'm just not dissatisfied with any version.. more dissatisfied with the alternatives
+@diana_clarke i approve
+@palendae not sure they "use eggs" as much as we tell people to use easy_install, which creates eggs at install time
+@kstrauser nope, apparently we're supposed to ship everything with everything else
+@kstrauser yup... distutils, setuptools/distribute
+sucks so hard to be scorned by users for making use of existing crap python packaging tools.. but at least we have a monotonic clock pep!
+@whitmo meanwhile us old farts keep making software
+@mtrier i think i got mine on fred fish disks
+@palendae nice.. i've got a soft spot in my heart for them
+fucking slackware.  with 20 floppies.  uphill.  both ways.  you fucking whiners.
+#ubuntu+1 irc channel people are nice even to people who really should eat shit and die
+i will blame greg ward (of distutils) for my eventual RSI from having to FUCKING CHANGE DIRECTORIES TO RUN SETUP.PY
+@nerdworldorder @niallohiggins recently got set up on dotcloud with satisfactory result.  @benbangert seems to like heroku.  no default.
+@nerdworldorder my own servers
+@nerdworldorder i never used ep.io, so not really sure, but http://t.co/JQVvsnYt has instructions for heroku, dotcloud, openshift
+used @shiningpandaci  today to get jenkins-based windows test automation, it works well!
+@shiningpandaci hi, i just signed up as a FOSS project and bought some creits but I can't use them until unqueued?
+when you're working so hard you forget to pay attention to competition and later, when you do, you sort of pity them a little?  yeah, that.
+"run this little fan at 4000 rpm until the cpu cools down, but not too much, cuz we might burn the fan out" #secretlaptoplife
+every time i think i find a bug in deform_boostrap, once i dig into it,  @dnouri has already figured it out and it's my own fault..
+holy endless monotonic clock thread
+@codeinpy quote on site page explains it :)
+@faassen the "retail" portion would just be a normal pyramid app that happens to use the objects visible via the management ui
+"The two hemispheres of my brain are competing?" http://t.co/dwNjQMYM .. can you help make nextgen Zopey stuff? https://t.co/WjOWKi8K
+gergen in 1972 tasked with writing resignation letter for nixon: "uh, who does the president resign to?".. boss' response: "figure it out!"
+this kid shreds: http://t.co/DB6wo4Wu
+bikeshed (n, v):  the ability of an otherwise uninvolved crowd to apply stop energy to a crass display of initiative
+things that came true: "music, microcode, and high speed pizza delivery"
+terrible place for marketing material: docstrings
+@lmacken that led me to http://t.co/OcOWHqlD
+i agree and disagree so hard: http://t.co/CehJ8eca
+@dnouri is it a joke or for real?  i'll never tell...
+@diana_clarke lol wtf ... although that's a cool idea ;-)
+@brandon_rhodes "fixed testing, and added some more testing. Still some tests to fix."!
+@zzzeek i have a style of taking both fingers from under the desk and sneaking up on my monitor in a swooping motion
+@junkafarian dunno if it's comparable but https://t.co/PATlYOJq
+@brandon_rhodes they are mostly hilarious too, although i was talking about some young Cato Institute speaker on c-span in particular
+things that are hilarious: people who are still mad at FDR
+every system you create makes total sense until you need to document it, at which point you ask yourself "what madman wrote this?"
+@lmacken nice hi hat accents ;-)
+buildout is disgusting: "We have the best distribution that satisfies 'nose'.  Picked: nose = 1.1.2"
+@chriswithers13 you've been replaced
+is there a word for a troll whom you actually know and interact with regularly?  if not i think we need a new word.
+@brandon_rhodes true dat.. ok i'm solidly back in the "get off my lawn" camp then wrt trailing whitespace
+@diana_clarke oh sure laugh at my pain
+@brandon_rhodes ah ok.. that'd be cool though wouldnt it..
+@brandon_rhodes i know when you say "my editor" you mean emacs.. what magic do you use to strip trailing ws from edited lines?
+"I really want to do the job that the OS already does for me!" == anyone who writes a web 1.0 app using async code
+@cmr1975 much much worse
+@tomlazar @dnouri that'd be fine by me... i have no particular love for the default look and feel
+@dnouri is my hero this week for deform_bootstrap
+OK, responses confirm that trailing whitespace cleanup is a circlejerk.
+an unholy task now has me in its grip
+can somebody tell me why anyone should actually give a shit about cleaning up trailing whitespace in python
+I just found out that Brian Lamb is retiring from @cspan .  What a hero he is.  Thank you for your service, Mr. Lamb!
+@ianbicking good to hear it went as well as it did, i know it must have been hard on everyone
+@jacobian care to share a link?
+lol people who think dropping a "beta" designation comes along with an improvement in stability
+@freddrake you should subscribe to @NewsInTheBurg for twitter traffic clusterfuck updates
+nose.. lots of option flags... never the one i need.
+@benbangert 917
+@diana_clarke never any shortage of stuff to do and you can ping me any time on irc or here, it's a pleasure
+@diana_clarke not to steal you away from @zzzeek but if you're looking to do more testing work, pyramid_debugtoolbar == shitty coverage
+py25,py26,py27,py32,pypy,jython .. worst. game. of. twister. ever.
+some arguments that folks can't use flexible systems and plug together components == "why can't i hold all these limes??"
+@niallohiggins don't worry, no matter what verb you use, an enthusiastic 19 year old will soon explain to you why you're wrong
+@ncoghlan_dev oh come on guido's not that bad... ;-)
+funniest OH at pycon sprints... &lt;someone&gt;: "where are the zope people?" @ubernostrum:  "dunno, probably under a pile of interfaces"
+@seedifferently heh i reshared a post on g+ ;-)
+@slinkp23 ouch... well, it's more fun with bad timing
+Pyramid 1.3 final released: http://t.co/7VZo1BuB .. read the "What's New" document at http://t.co/QZSMadhH for details #pyramid #pylons
+finished Old Man's War by John Scalzi and gave it 4 stars http://t.co/etQrtZMd #Kindle
+@garybernhardt tells truth to power in http://t.co/PIGzqOOm
+#pyramid web framework 1.3b3 released: http://t.co/wt4N69A4 #pylons
+@whitmo i'm down with that in may
+props to @jessenoller for herding the thousands of cats that made #pycon2012 possible
+holy hat that was a serious #pycon
+at dca waiting for blue line
+@diana_clarke does awesome work on #pyramid #pylons
+going to @cguardia's pyramid talk at #pycon
+@andreypopp see you tonite.. btw, try to get an invite to the pyladies/surveymonkey party (ask at pyladies booth)
+@andreypopp I'll be at party tonite then bar
+prepping for my 2:40 pycon talk "introduction to pdb" in area E1
+@wwitzel3 can't hang but c u tmrw
+@wwitzel3 almost certainly we'll be at bar
+@blaiselaflamme @cguardia I'm staying in to write presentation
+On Hyatt bar patio
+@blaiselaflamme in Tuscan restaurant at Hyatt now
+@ncoghlan_dev codepoints eh
+@jessenoller @brian_curtin yup they're all there for python 3 of course ;-)
+@brian_curtin @jessenoller it's tempting to make fun of the wild overestimates, but i think it's a mistake to dismiss the sentiment
+@zzzeek ok, its just that the attributeerror in that output looks suspicious
+@zzzeek https://t.co/iy9dH3mY .. you might try something like this (to make sure autodoc has access to built code)
+@zzzeek have you pinged ericholscher on irc?  he's pretty helpful.
+@Fear_Factory does the concept of the industrialist relate in any way to ayn rand?  (e.g. http://t.co/UMQ2h71D)
+@voidspace seems to be a common idiom: https://t.co/tqXHEfxU
+can you tell that i actually got caught by this?  http://t.co/fzI5l9wm
+yessir, i believe you when you say you "read the entire documentation of pyramids"
+maillist culture declines proportionally to number of users who respond recreationally to every thread
+@mitechie @squeekyhoho handy h1 records great
+#pyramid web framework 1.3b2 released: http://t.co/UbmWN834 #pylons
+@jessenoller guidebook data is awesome
+@whitmo @kennethreitz yep that sign screams virginia alright...
+is anyone willing to act as the official "scribe" of the #pycon web summit?  e.g. capture a publishable summary.
+@palendae we *might* be able to make the audio available; but even if not, no harm in asking questions and getting answers 2nd hand
+There's still a few days left to submit questions for the PyWeb summit panelists at #pycon http://t.co/Pvqo5p7k
+@wolever strings have __iter__ in py3
+@iamnotcasey ewwww
+this works-under-py2 code: "if not hasattr(permissions, '__iter__'): permissions = [permissions]" almost ruined my python security under py3
+@dougzor thank you!  i am but the messenger, might you mail pyramid@webhippo.net to work out details?
+@kennethreitz wget http://t.co/4DBvlkhh | tar xvjf -; cd Python-3.2.2; ./configure --prefix=~/opt/Python-3.2.2; make install right?
+want to help staff a #pyramid/  #pylons booth at #pycon for a couple hours?  mail pyramid@webhippo.net or ping on freenode irc in #pyramid
+people who give you feedback on your software are not interlopers, they are your customers
+cool new design for pyramid tees by http://t.co/nu6rt1rJ to be unveiled at pycon
+#pyramid web framework 1.3b1 released: http://t.co/3ikVGKnH #pylons
+another maillist / irc language mapping: "i'm confused" from someone who disagrees == "what you're saying is full-on bogus"
+meanwhile in fredericksburg... http://t.co/lMwmkdU6
+#pyramid web framework 1.3a9 released: http://t.co/kBNDEuEO #pylons
+my town's "police tips" site: http://166.61.195.119/p2c/  that's right.. no domain name.. creepy javascript alerts on entry.  comforting.
+oh random internet guy, you have a very important question.  i know this because you've added lots of question marks to it.
+if not, i think i may call it mcdonough's law
+is there some sort of "x's law" name for the phenomenon "if you actually do something, someone else will eventually complain about it"
+@mitsuhiko how do you mean?  what breaks?
+@fijall greeeeeat
+a friend wants to get into #pycon, is there any mechanism for him to pay a premium or otherwise prostrate himself to get in?
+@kisielk yep, thanks.. the chipin wsiwyg editor is a horror so it's likely to remain broken (i've tried to fix it about six times)
+@btbytes thank you
+@seedifferently well, at least you can now just say "please submit a pull request"

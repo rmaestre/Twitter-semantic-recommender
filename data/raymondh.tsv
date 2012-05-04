@@ -1,0 +1,163 @@
+#python's frozensets are great for implementing sets of sets.  They can also serve as dictionary keys when representing graph structures.
+#python's monotonic timer PEP reminds me of a saying, "A man with two watches never knows what time it is".  http://t.co/kZhmcBJc
+#python misfeature: pep 3107 function annotations seemed like a good idea but are ignored in actual practice.
+#python observation:  API warts are arise naturally whenever you jam two or more distinct functionalities into a single interface.
+@samuelclay Hint:  The theme is about what *causes* language warts.
+#python pop quiz:  What was the theme of my last six tweets?  Was there a moral to the story?
+#python's named tuples use p.attrname for user specified fields and p._methname for its own fields.  The underscore prevents conflicts.
+#python's min(seq) works when len(seq) &gt;= 1 and min(*seq) works when len(seq) &gt;= 2.  Dual signatures make things interesting.
+The problem of distinguishing #python sequences from mappings has a long, thorny history. Ultimately, abstract base classes were introduced.
+#python Square brackets denote the __getitem__ operation for both mappings (key/value stores) and for sequences (indexed lookup).
+#python Curly braces are used both for dicts, {'a': 1, 'b':2}, and for sets, {2,4,6,8}.  That left the question of what {} should mean.
+Parentheses are used for expression grouping, for function calls, and for tuples.  Odd syntax like (1,) happens when those uses conflict.
+Here's another little example of #python3 variable length argument unpacking:  [(a,b,c) for a,*b,c in map(range, range(2,6))]
+#python3 argument unpacking is amazing, surprising, and a bit weird.  Try this:  a, b, *c = d, *e, f, = *g, h, i = 'LMNOP'
+#python dictionary tip: setdefault(k,d) is like get(k,d) but adds a missing item.  pop(k,d) is like get(k,d) but removes an item.
+The equivalent of static variables in C can be had in #python3 using nested scopes and closures.
+@wolever Right you are!  sqlite.connection should be like "with closing(conn) as c:" but it implements auto-commit-or-rollback instead :-(
+@ketsuban SQLite3 should have provided a separate autocommit() context manager because "with connect(f) as c:" looks like an autocloser.
+Explicit is better than implicit.If you see "with sqlite3.connect(f) as c:", do you have any idea what __enter__ and __exit__ are doing?
+Learn from #python's sqlite3 API mistake:  Context manager's need a separate constructor when doing anything other than releasing resources.
+#emacs tip:  C-x &lt;F1&gt; brings-up a very helpful list of everything bound to C-x
+#python with-statement tip:  The __exit__ method is always called. If it returns True, any pending exception is cleared.
+#python tip:  Tuple unpacking works even when iterables are nested:    (a, b, c), (d, e, f), g = [[1,2,3], [4,5,6], [7,8,9]]
+"I get paid for code that works,not for tests,so my philosophy is to test as little as possible to reach a given level of confidence"-K Beck
+More #python special methods you might not know:  __format__ __missing__ __bytes__ __bool__ __trunc__ __ceil__ __floor__
+Little known #python special methods:  __index__ __reversed__  __trunc__ __round__ __dir__ __sizeof__ __subclasshook__  __divmod__
+Updated the recipe for class-like objects using closures.  Special methods are now supported :-)  http://t.co/esjGeDgi
+"nonlocal" is my favorite #Python 3 core language feature.  Wish it had gotten backported to 2.7 when we had the chance.
+#python3 experiment: It's possible to gain some clarity and speed by writing class-like objects using closures: http://t.co/esjGeDgi
+#python tips:  Test whether elements are distinct:  len(set(s))==len(s).   Test whether elements are ordered:  list(s)==sorted(s).
+@jtauber Thanks for the nice post.  Can you please show an additional method  using __missing__?  It is a more general purpose technique.
+#python teaching tip: people need to know dict.get and dict.setdefault before encountering defaultdict.  Basic types before exotic ones.
+#python tip:  To see every 100th element in a stream of data:    for elem in itertools.islice(iterable, 0, None, 100): ...
+#python musing:  the language might be better-off if everyone just embraced "lambda" rather than using partial, itemgetter, attrgetter, ...
+#python tip:  list subsequence insertion can be done with slices:   s=range(0,100,10); s[2:4] = range(20, 40)
+#python backport: Py3.3's improved lru_cache decorator is now available for Py2.6+ Py3.0+ and #pypy   http://t.co/sY1apFyu
+#python tip:  CPython makes almost *no* guarantees of what operations are atomic. Better to use a lock (nuke it from orbit) just to be sure.
+#python new:  Michael Foord's mock library just landed in Python 3.3:  http://t.co/5f3QKkam
+#python news:  A secret cabal of core devs made some decisions on python's future ;-)  Here's the inside scoop: http://t.co/BTNZdqvO
+#python tip:  dict.fromkeys is a classmethod for building a new dict from an iterable (of keys) and a recurring value (defaulting to None)
+trading tip:  don't postpone investing "until the markets recover"
+#pypy jitviewer tip on OS X: to see the generated assembler, install binutils (via brew or macports) and link gobjdump to objdump
+The first of the #pycon 2012 videos are up: http://t.co/t0nGK1AK
+#pycon Armin Rigo frames his 2012 Software Transactional Memory proposal by showing how foolish Garbage Collector proposal sounded in 1982.
+#pycon watching an impressive demo of #pypy doing *realtime* video-processing (edge-detection).  No other dynamic language can do this.
+"python-oath2 doesn't do oath2" @jackdied #pycon
+#pycon @jackdied: "I hate code and want as little of it as possible in our product."
+Traveled 350 miles with a 21 day old infant.  #pycon awaits :-)
+#python multiple inheritance tip:  There is more to making a FlyingCar than simply subclassing from both Airplane and Car.
+#python tip: Composition generally beats inheritance, unless the composition pattern essentially reinvents what inheritance already does ;-)
+#python tip:  bisect.insort() does a logarithmic search followed by a linear-time insertion
+In Python, chained assignment stmts separate multiple targets. In C, = is a right-associative expr operator whose side-effect is assignment.
+#python note:  multiple assignments apply left-to-right:  i = arr[i] = f()  # computes f(), then assigns i, then assigns arr[i]
+#python tip: Typical uses of the _ variable are 1) previous interactive session result 2) a throw-away variable and 3) gettext i18n
+@Ceasar_Bautista Try the zero argument constructors with defautdict.  Also, it is useful to know which objects evaluate to False in Python.
+#python tip: any([t() for t in str, unicode, bool, int, float, complex, list, tuple, set, frozenset, dict, deque, Decimal])  --&gt; False
+#python tip: Know you zero argument constructors: str() -&gt; '', int() -&gt; 0, float() -&gt; 0.0, dict() -&gt; {}, tuple() -&gt; (), list() -&gt; [], etc.
+#python tip:  The use of the __del__ magic method is rarely warranted.  A context manager or explicit close is much preferred.
+@ncoghlan_dev Py3k was the *one* opportunity to simplify and clean-up the language.  Adding a nop u-prefix works against that goal.
+@Madrox The need for enums in Python is *slightly* greater than zero. It is possible to lots of great code without them.
+In modern #python, try/except E1/except E2/else/finally can all be used in one statement.
+@diogobaeder The decimal module uses Underflow to signal Inexact, Rounded, and Subnormal conditions at the same time.
+#python tip:  To raise multiple exceptions at once, build a combined exception:   class MyOverflow(OverflowError, ValueError): pass
+@krarick Trying to fit comments and multi-level nested commands into 80 columns can also cause readability problems.
+#python tip:  Need robust commercial support for Python?  Try the distros from #ActiveState and #Enthought.
+#python tip:  the re module caches up to 100 regexes for match(), search(), findall(), sub(), subn(), split(), compile() and finditer()
+Little baby Raymond Matthew Hettinger born this morning at 8:17. Healthy and sweet.  7.0  pounds 19" long :-)
+Woohoo, #pypy 1.8 has been released:  http://t.co/YezmtWEZ
+@dnene The ability to locally replace print() with redirected prints or logging was a motivating use case for the print function. PEP 3105
+#python3 tip:  A cleaner way to redirect a bunch of print() calls:   print = partial(__builtins__.print, file=destfile)
+#python3 tip to rebind the print() function:  orig_print = print; print = lambda *args, **kwds:  orig_print(*args, file=sys.stderr, **kwds)
+Example use case for match_object.expand():  http://t.co/NhUNJvhq
+#python tip:  the expand() method on regex match objects is handy for \1 \2 substitutions with multiple templates: http://t.co/nOLf90N7
+Currently 109 people signed-up for my Advanced Python tutorial at #pycon.  Whew!
+#python tip: tuple unpacking can be nested: "for i, (key, val) in enumerate(d.items())" and "for (px,py), (qx,qy) in zip(points1, points2)"
+@bukzor career tip:  Avoid projects that use the words "meta", "virtual", "pseudo", and "abstract" all in the one sentence.
+#python tip: function decorators are only useful for registration, validation, caching, annotating, logging and 1000 other things :-)
+@sumeet_agarwal UserList works just fine but subclassing from list can be easier and faster.
+Python suggested reading:  the code for SocketServer has extensive docstrings and comments.  It is a pleasure to read.
+Wow, my #pycon tutorial is popular.  As of January 24th, 88 people have signed up for the two sessions of Advanced Python.  Woohoo!
+@gumnos ISTM that tweet is no more helpful than saying "while 1: pass" doesn't terminate.  That doesn't make while-loops useless.
+Today is the last day of early-bird registration for Pycon.  Register now.  https://t.co/kOA8DOO6
+#python tip:  Argument unpacking works with any iterable.  For example:   x,y,z='abc' is valid.
+The #Pycon early bird rate runs until January 25th.   Do yourself a favor and register now :-)
+@jaidevd The talk has been refined a bit since India, but it will be mostly the same content.
+@asksol Using send(x) as a function call saves the overhead of creating new stack frames.  That said, try #pypy for better performance.
+#python tip:  itertools way of looping pairwise:  it1, it2 = tee(s); next(it2); zip(it1, it2)it1, it2 = tee(s); next(it2); zip(it1, it2)
+@jackdied Oh, ye have little faith. More ways are coming :-)
+#python tip:  one way to loop over a sequence pairwise is:  for x, y in zip(s, s[1:])
+@alex_gaynor __contains__() falls back to __iter__() which falls back to __getitem__().
+#python tip:  When you write "x in s", the interpreter calls s.__contains__(x), but if contains isn't defined, it tries s.__getitem__(i)
+██████ ██████ ███ █████████ ████████████████████████ ██████ ███ █████████ ██████████████████
+#python fgrep:  re.findall( '(?:.*)' + '|'.join(map(re.escape, sorted(words, key=len, reverse=True))) + '(?:.*)', text, re.MULTILINE)
+@jaymzcampbell Thanks.  You made my day :-)
+#python tip:  Sparse 2d-arrays can be stored with a single dict accessed with a[i, j] or as a dict-of-dicts accessed with a[i][j]
+#python tip:  To round decimal objects, use the quantize() method.  To remove the trailing zeros, use the normalize() method.
+#emacs tip:  M-z (zap-to-char) is a fast and flexible way to kill text.  Combined with C--, it can kill text in a backwards direction.
+@kantrn http://t.co/r46JoYFR
+#python tip:   A Python program can exit only when the last non-daemon thread finishes.
+#python tip:  "in" gets used in two ways:  "if x in s" calls s.__contains__(x) and "for x in s" invokes s.__iter__() or somesuch.
+teaching tip:  #dropbox is a great way to share files with your class in real-time as you edit.  great for live demos.
+@gthb @brandon_rhodes That note is a little overdramatic -- it applies to class dicts and locals, but you already knew that :-)
+@adamgoucher Per the docstring:  vars([obj]) -- Without arguments, equivalent to locals(). With an argument, equivalent to obj.__dict__.
+#python tip:  most folks prefer len(s) to s.__len__(), prefer next(it) to it.next(), but forget to use vars(s) rather than s.__dict__
+Coding standards are useful upto a point. Beyond that, it is one group of programmers trying to force their habits onto other programmers.
+#python meta-tip:  Support the Python community by donating to the PSF: http://t.co/9HjtdrJB
+#keepitfree "Imagine a world in which every single person on the planet has free access to the sum of all human knowledge."
+#python tip:  timeit says that (x+0.0) is much faster than float(x) where x is an integer or float.
+The time has come to start formatting your log entries in JSON: http://t.co/iMa5oHmw
+Hey, hey.  Guido sings the high praises for #python's heapq.merge()  http://t.co/3XQrbsvf
+Project Euler is a fertile source for succinct functional programming examples when teaching #python:  http://t.co/g7vpBgld
+@dabeaz Have you considered having Ply use decorators instead of docstrings for the regexes?
+#cpython note:  ** dict unpacking depends only on keys() and __getitem__(): http://t.co/zbcB2m2E
+#python news:  The #pycon talks are being announced this week. My talk is titled, "The Art of Subclassing".  See you there!
+@alex_s_v Uncle Timmy would say that anyone combining multiple processes with multiple threads is living in sin and deserves their fate ;-)
+@dabeaz Sounds like a bug.  Do your duty:  http://t.co/gHw8U97M
+#python tip:  SocketServer scales effortlessly. Just add ThreadingMixin or
+ ForkingMixin. http://t.co/aurg2ZdK
+@ma_muratech Thank you.
+@dougnap Thanks Doug :-)
+@dougnap I personally use emacs for development but I can't ask students to use that ;-)
+@dabeaz @insyteful @tonyandrewmeyer @fonnesbeck What alternatives are you considering?
+@thinrhino Does that mean that you have to teach Vim before you can teach any Python at all?
+@jessicamckellar what do you use now?  I've also had classroom issues with IDLE on both Windows and Mac OS X.
+@michaelhoffman Do you use an IDE for tooltips, colorized code, an editable interactive prompt, access to source, class browser, etc?
+#python education survey:  When you teach #python, do you use IDLE?
+@davrizzo The #python "optimization" article http://t.co/ilQ3UQ3f seemed to have missed the one-obvious-way:  bytes()
+@yelp Thank you for hosting the #python SF meetup this evening :-)
+#python alert:  @dabeaz is on the front page of HackerNews at the moment.  Vote up his fine presentation on generators.
+#python tidbit:  defaultdict(Counter) can be used to update multiple accumulators per key:  http://t.co/firoYFIE
+At $150, #pycon tutorials are a bargain. I just signed up for a #PyPy session with Maciej, Armin and Alex G! http://t.co/HcZ8JOxe
+#pycon note:  The discounted hotel rooms are available now -- they too are finite and worth booking early.   See you in March :-)
+@ncoghlan_dev contextlib.CleanupManager() hasn't had any real-world uptake. Maybe it shouldn't *start* its life by going in the stdlib.
+#python news:  The registration for the US #Pycon is now open. It WILL sell out.  Register now.  http://t.co/kOA8DOO6
+@ncoghlan_dev When "crazy" is accompanied by tracker items, enthusiastic discussion, and participation by a committer, it's worrisome.
+@ncoghlan_dev 140 characters doesn't leave room for correct characterization.The point is that python-ideas contemplates drastic lang chngs.
+@dabeaz It was an October thread on "Cofunctions -- Getting away from the iterator protocol".
+#python-ideas people seem to want to wreck python.  Recent threads: "introduce braces", "ditch the iterator protocol", "avoid try/finally"
+#python tip: Go ahead and fall in love with the with-statement, but don't forget that sometimes a simple try/finally is a better solution.
+@koogmo Thanks Rick :-)
+#python package of the day: http://t.co/dZjrcYL3   parse("1:00PM") --&gt;  datetime(2011, 12, 11, 13, 0, 0)
+@jdunck The style guide recommends against i.e. and e.g.   It's a readability issue and an ESL issue.
+@jairtrejo Yep :-)  And plain English is better than Latin abbreviations.  And following the style guide is better than not ...
+Also, I expect to write a Security Advisory for the #python HOWTO docs and that can replace the myriad of warnings in the main docs.
+@jackdied It's all greek to me ;-)
+At some point, I'll go through the #python docs to replace all occurrences of "i.e." and "e.g." with "for example" and "such as".
+@jessenoller Just establish a new coding standard: All bikesheds SHALL be painted Velociraptor Green.   Problem solved :-)
+@chrisjrn The \N sequence was just a unicode name lookup for  u'\u0664\u0662' which displays as ٤٢.
+@dnene int(s) converts strings to numbers.  The superpower is that it works for digits regardless of language or character set.
+#python's int() has a hidden superpower:  int(u'\N{arabic-indic digit four}\N{arabic-indic digit two}')  --&gt;  42
+#python's int() with base=0 will automatically detect the base: int('42', 0) -&gt; 42 and int('0x2F', 0) -&gt; 47 and int('021', 0) -&gt; 17
+Some very experienced #python developers mistakenly rely on dict.setdefault() being atomic: http://t.co/fy94iMjf
+Contrary to popular belief, #python's dict.setdefault() is not atomic, it can hash twice:  http://t.co/qtWjfMLG
+#python news:  Django is getting close to running on Python 3.2 :-)  http://t.co/7P0jlwDA
+@jackdied Ordering TAOCP is a great first step.  Now, there is the little matter of learning MIX and reading the books ;-)
+Hey, hey.  I just got notified that I'll be teaching a full day Advanced #Python Tutorial at #pycon.  Be there or be square ;-)
+Google App Engine now offers experimental #python2.7 support: http://t.co/lg5A8gil
+Favorite line from #python docs:  "python -U"  Do not be tempted to use this option as it will probably break your world.
+@rotated8 With the logging module, the HowTo docs are separate from the reference docs.  With regex module, the examples are at the bottom.
+@shearichard Examples are great for initial learning but should be in a separate section than the detailed reference.
+#stackoverflow provided a nice problem to really show-off how #python's functional tools can be composed:  http://t.co/5p4bgPfx
+Examples in docs are nice. Except when there are so many that the tech references get drowned out: http://t.co/DUOf1NnG
+Key to #stackoverflow society:  Upvote liberally.  Downvote sparingly.  Don't be petty.  Ignore nincompoops.  Celebrate great answers.

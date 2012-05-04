@@ -1,0 +1,124 @@
+Did you know that nose has user and developer groups, and an issue tracker? It's true.
+Tor/Forge E-book Titles to Go DRM-Free http://t.co/mfLaz8qe ... good news and the only way to prevent an all-amazon future for books.
+Here is a cool thing we made at work. http://t.co/UBvnxaJf
+@kscottz One pattern for adding flags is have plugin set things in module. Example: https://t.co/XRiAnwtB / But ENV is easier 4 1 flag
+@kscottz Env variable? DUMP_IMAGES=1 nosetests ... But I don't know how decorators are involved so I'm prbly missing something.
+nose2 docs are now on readthedocs. http://t.co/kDhw8YgM
+@kscottz @ehofer Really! My brain is mostly full of toddlers these days but still may be pickable.
+It's snowing.
+Better link for that last one: http://t.co/CvduMG1i
+Speaking of nose2, perhaps you'd like to use it with django? http://t.co/gmtmHVko
+nose2 0.3 is out. New plugins, new features, and fewer bugs. http://t.co/dlI5aize. Slogan: "Now it might be usable!"
+Watching http://t.co/A1O3sCTz while I delete 12000 error emails, 50 at a time.
+@catechism I never leave the house and I'm really cold right now.
+Pączki from Zingerman's. Good.
+nose2 0.2 is out. Now an alpha release and possibly safe for small, friendly robots. http://t.co/Z9TRNimK
+The Wise Man's Fear radically changed my opinion of The Name of the Wind (for the better).
+@nedbat eventually unittest2 and nose2 will agree... but not for a while yet. :(
+@club_is_open Awesome! Welcome home Mr. O!
+@club_is_open woo! Congratulations!
+@zeeg I'd probably use a custom loader or suite class, but runner.run() should work as well as long as you don't mind losing lazy loading.
+@zeeg reorder within a module, a few ways. Reorder all tests across modules, not really -- lazy loading gets in the way.
+@bitprophet: Oh! Yeah, that was the other Niven/Pournelle book. Nevermind, NPR voters. Carry on.
+Lucifer's Hammer? The thing about the space elephants? One of the best 100 SF books ever? Really, NPR voters. Really.
+@jessenoller @asksol @kumar303 Minimum nose version for 2.7 compat is 0.11.4. pypi had that hidden but I just unhid it.
+@zeeg: Sure, I can see that being useful. nose core has a pretty long release cycle, though.
+@zeeg: A plugin to allow test collection only from unittest.TestCases?
+By the way, nose 1.1 was released today, thanks to the efforts of @kumar303 and many patches.
+@bitprophet: Just a mistake, should be all fixed now.
+@jessenoller @zeeg unhid nose 1.0 from pypi, better now?
+@jessenoller Welcome! As world's worst meditator, I can say, it helps.
+@jessenoller @dnoller You're most welcome.
+@dnoller: ... knowing (a little) how tough it is to have a sick baby. We're all thinking of you and hoping for the best.
+@dnoller: My daughter will be really happy to hear that Abby is happy (esp. about the car, she insisted on that). Glad to help a little...
+♺ @club_is_open: @jessenoller Thoughts to you and @dnoller. // Likewise.
+Feast for Crows was much better on re-read. One week to DwD-dammerung!
+@jessenoller Happy birthday Abby!
+@LizBraswell: Awesome!
+@club_is_open Congratulations!
+@__mharrison__: I put a test.sh in project root to activate virtualenv and run nose, (add-to-list 'nose-project-names "test.sh") in .emacs
+♺ @AbrahamHanover: George RR Martin finishes and turns in A Dance With Dragons. No joke. http://tinyurl.com/66548fu
+An awesome story of debugging from Barry Warsaw. http://is.gd/iAxPQe
+♺ @voidspace: Congratulations to @hpk42 and his new son. Welcome to the world Mattis.
+#pączki! #nolongerjealous #nom
+#pączki #pycon #jealous
+♺ @TracyLynntastic: GRRM DWD pub date: http://ow.ly/4798g. This news will no doubt banish winter, end my kids' colds, and stop war. 7/12/11!
+Human pythonists, stop reading wsdl. Package: http://bit.ly/enN79a, docs: http://bit.ly/dT2Hhz and code: http://bit.ly/dHc1Dr.
+@durin42: Only if we do a remote sprint. No pycon for me this year. :(
+@durin42: ... and then we should make a version that supports unit2 (and virtualenvs) more easily than this: http://is.gd/kuLMG.
+@club_is_open: welcome back to the side of righteousness. Have you tried nosemacs (http://is.gd/kuIj1)?
+@brettbernstein congratulations!
+@iElectric: Working on fixing the link. Changelog is very short: http://is.gd/iKRdr
+nose 1.0 release in 3... 2... 1...
+Finally learned how to make proper hexagonal paper snowflakes.
+nose 1.0, with python 3 support, is in final testing. Impatient? hg clone http://python-nose.googlecode.com/hg/ nose.
+♺ @jessenoller: If you assume you will have free time after having a kid - don't, assume you have a minimum 10 year free time air gap.
+♺ @kumar303: Python 3 support has officially landed in the main Nose branch https://bitbucket.org/jpellerin/nose - a release is coming soon.
+@voidspace: congratulations! Sleep all you can now. :)
+Thanks, lucid, I really did mean to send 'brb' out via every service I'm subcribed to. That was very helpful of you!
+brb
+nose 0.11.4 is out, fixes various points of disagreement between nose and Python 2.7. http://bit.ly/duHloE
+@iElectric http://lists.idyll.org/listinfo/testing-in-python :)
+@iElectric Someday there will be a nose2 that supports unittest2, once unittest2's extension mechanism is in place. See TiP list for more.
+Heard a bird this morning that sounded exactly like an 8-bit video game sound effect for picking up a treasure.
+nose 0.11.2 released. multiprocess plugin for windows! bugfixes! http://bit.ly/cFj7zB
+Bisecting a large, old test suite to find all of the modules that aren't cleaning up after themselves takes a really long time.
+Holy crap, Al Franken is a Senator.
+Pass. The. Damn. Bill. #hcr
+Et tu, Pelosi. Somebody tell me why I should ever vote for a Democrat again. http://bit.ly/8k6zYg
+Don't blame us, the President is a pathetic wimp, too! #dem2010slogans http://bit.ly/6Y4SZI
+We promise to let you kick it this time. Pinky swear! #dem2010slogans
+"Betrayal": @ezraklein with the right word, as usual. http://bit.ly/4MVZTn
+Helping you get better Democrats in 2012 by losing our majority in 2010. #dem2010slogans
+I guess the other side was right all along. Vote Democrat! #dem2010slogans
+Why win when you can quit? #dem2010slogans
+You can't spell "Despair" without "D". #dem2010slogans
+We'll pass health care reform as soon as Teddy's alive again. #dem2010slogans
+Oh, and MA: you're so right, #hcr, climate change, jobs bill, bank tax: all MUCH less important than who Curt Schilling pitched for. Idiots.
+Now we find out if the dems have any spine or sense. Pass the Senate #hcr bill, you mollusks, or you'll lose your majority and deserve it.
+Disillusionment (n): Finally getting yr Grandma's old cookie recipe only to find that one you dl'd from a random Swede last year is better.
+When submitting a patch to a project whose entire purpose is testing, consider including a test.
+Tiny silver snowflakes falling
+Speaking of #ubuntu, where can a US person get these stickers: http://bit.ly/bKNr0? The canonical shop will not ship to US.
+Karmic koala works flawlessly on new asus ul30a. #ubuntu!
+@jessenoller It's a monkeypatch that rewrites the generated script text. It's not pretty.
+multiprocessing finally works under Windows in nose unstable: http://bit.ly/vRSZC #python
+Dear jinja: It's not you, it's me. I just can't live with your scopes. When I say {% for %} I need a real loop variable. CWSBF?
+nose 0.11.1 is out. Pesky .0 bugs fixed: 5ish. MP for windows: not yet.
+nose 0.11 is released! Testers, start your dots .... http://pypi.python.org/pypi/nose/0.11.0
+nose 0.11 release held up by bug http://bit.ly/yByFE. Windows users, can you reproduce it? Give me access to test?
+nose 0.11 open issues: 0
+Hail storm!
+How did I live without you, nosemacs? http://tr.im/jhAL
+#pycon nose sprint in seatac a starting ... now
+@catechism @kevbo bitbucket for nose doc sprint http://tinyurl.com/chuo6l
+@club_is_open ... somewhere there is a joke about Gil Sans and getting rid of the python global interpreter lock.
+@kumar303 you are wanted in the nose sprint
+@almad We're in openspaces room DFW-A -- first on the left as  you come in
+nose sprint & chat in open spaces dfw-a until lunch at #pycon
+nasa stole my dongle, #pycon
+staking out leapfrog alley and waiting for lightning talks on #pycon day 2
+dinner?
+converting nose's crazy home-grown docs to sphinx is going to take a long time.
+@durin42 I'm in open spaces dfw-a, need to stay nearby in case other nose people come, since board says I'll be in here -- where are you?
+@durin42 -- nose-xml test_unicode_custom_utf16_madness fails on ppc pbook. Expected? Platform differences?
+@pycon nose "finish 0.11" #pycon minisprint starting in dfw-a
+There is a python api for voldy, #pycon -- http://tinyurl.com/dgtsf9
+argh, #1 anticipated talk at #pycon cancelled
+@julielee75 nope, I'm on my own this time. They may come in the summer, though.
+@pycon #nose hacking at #pycon. Upper lobby/red bar area, looking at sphinx-ifying docs and finishing up collect-only/loop-on-fail.
+One more try with a public profile: #pycon hacking on nose in upper lobby, tan chairs to right of escalators.
+#pycon hacking on nose. Upper lobby, tan chairs to right of escalators (let's try this again with the proper tag)
+@pycon hacking on nose. Upper lobby, tan chairs to right of escalators.
+planning nose mini-sprint at @pycon -- thurs pm, fri am, sat am, sun pm in open spaces. http://us.pycon.org/2009/openspace/NoseEleven/
+going to get some hotel breakfast
+Coventry (http://blippr.com/b/a21f): Fable's Bill Willingham's early b/w from Fantagraphics. He can draw, too! Look for the frog on the  ...
+Come follow me on blippr! http://blippr.com/profiles/8202
+overnight crock pot oatmeal via bain-marie method ftw
+overheard: Mama. Mama. Mama? Mama! Tow-tow. Tow-tow. Tow-tow! Tow-tow? Tow-tow, tow-tow-tow-tow-tow-tow!
+Easy to fold, fantastic plane. http://www.josephpalmer.com/planes/PL1/PL1.shtml
+http://tinyurl.com/4ybadz !
+suspending his campaign to focus on freeing up space in /var
+just finished uploading new versions of NoseGAE and Trestle to pypi, and planting two trees.
+Robins!
+running nose mini-sprint @pycon open space, 4pm-7pm. Working on jython compatibility for 0.10.2 and new plugin reporting API for 0.11

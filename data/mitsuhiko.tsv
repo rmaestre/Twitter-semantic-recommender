@@ -1,0 +1,168 @@
+Sounds like the official solution for having robust nodejs event loops polling from redis is not having callbacks raise exceptions.
+@BenHop no, just incapable.
+Aaaaand. Still looking for a place to stay in London/Bromley :-/
+@mjackson worker using redis. callback from redis fails -&gt; server dies unless i also add an error handler to redis.
+I'm too stupid for node I'm afraid. How do you write a robust main loop when every event handler might have falling callbacks?
+Back in London! One day late due to my inability to organize shit. Yay.
+@paniq also observe the hyperbole. I can think of tons of other stuff more evil than ea.
+@paniq wanna bet that they licensed the music on time? The only thing more evil than ea is the music industry.
+@markusgattol we should indeed do that :-)
+@markusgattol nope, i moved to london. But I still have friends in Graz :-)
+@markusgattol but I can't believe there was no better solution for the problem than banning alcohol :-/
+@markusgattol the punks next to spar were obnoxious, i give them that. At one point they were inside the shop asking for change :-/
+Boooo. Graz is introducing a no alcohol zone in the center of the city.  The damn punks ruined it for the rest of us :-/
+@zh1nt0 you up for an AMA on reddit at /r/battlefield3 in the near future? I will ensure that we're keeping it civil :-)
+Riot games ups the ante to 2 million dollars price money for LoL season finals this year. Shit is getting real.
+@stevelosh i made a vagrant vm for this particular thing :-/
+I'm impressed that folks from DICE stick around on sites like reddit despite all the horrible folks on there. Takes a lot of self control.
+@garybernhardt @/regex-here/ :-)
+Yay. Twitter just decided to mark every direct message since January as unread. :-/
+@flowblok up
+Holy crap is the tribes ascend updater bad. It just managed to fully crash a windows machine by causing massive io from the service.
+Hey everybody. I will bring back the paste in in read only mode once I scanned and cleaned the records.
+@Habbie until two weeks ago the whois record was not pointing to my name :P
+And I thought @paniq was joking: http://t.co/WjJ5b4kL :D
+@JurieOnGames i'm still contemplating on that. I will ask a lawyer before doing anything.
+@paniq I don't have an xbox in the UK, I just watched @Arnout and @digibawb play it. Neither finished it without the interwebs though :)
+@JurieOnGames the worst part was seeing how much traffic those offensive links created. I could vomit.
+@paniq the QR codes are optional. There are puzzles if you don't have the QR code. For the alphabet there is a rosetta stone.
+Audi buys and Instagram worth of Ducati: http://t.co/4qRZzxka (via @Arnout)
+In related news: thank god sopa did not pass.
+The pastebin dilemma: open to robots: spam, closed to robots: 
+child pornography link dumps :-/
+I added an update to http://t.co/riedO2IZ that explains a little bit why the service is down: http://t.co/XfM9E5P6
+People were using the pastebin as a tool to distribute illegal content. (And by that I don't mean torrent links).
+I've shut down http://t.co/riedO2IZ for now. Will try to bring it back in one form or another in the future.
+Today is the day I regret ever having had the idea to run a pastebin.
+@secretglyph launchd is a cool piece of tech, but not without fault. launchctl is damn annoying for a start.
+@secretglyph cgroups, dbus, support for user input at different point in times (before gui, after gui) etc.
+@secretglyph explain what part. the reasoning behind socket based activation?
+@secretglyph i think that's what motivated upstart. systemd has a legitimate advantages over launchd.
+@aaloy if things go really bad they don't have enough support personnel. (For instance power outage due to faulty equipment).
+@Disasterpeace what are the odds of eventually seeing the FEZ soundtrack back on spotify?
+We just noticed that OS X has different hinting for the menu bar and the right username dropdown menu. Now it will always bug me …
+@bitprophet “there's something silly at the end” — you mean everything before the end is not silly?
+Hetzner's datacenters do look impressive: http://t.co/RQzZtBQ5 — wish they would work on their support though.
+TIL: blowtorch == flamethrower. same thing really.
+Not only does the server right now die due to incredible high IO the moment Apache is up, it's also badly connected: http://t.co/2t83YKgC
+Trying to get http://t.co/FavDoe2E back under control. Server is very unhappy today.
+In light of recent news read this page about systemd and appreciate the design that went into it: http://t.co/FB0MfpVk
+Actually. socket.fromfd exists. I think that should make it work with systemd.
+Unfortunately systemd's socket based activation does not work for Python 2.x :-/
+@zeeg @ncoghlan_dev and genuinely fun to use :-)
+@zeeg http://t.co/R86m8Y0F
+I guess I'm years late to the party, but the rating for "This is Spinal Tap" on IMBD goes to 11: http://t.co/nheTGz3E
+This is so awesome on so many levels: http://t.co/sEkUxDk1
+Python 2's ssl module is so damn useless. It hurts :-/
+All those machines seem to have a fixed IP range, so if you make some http requests you can others play with it.
+Those “try ubuntu server” on a cloud thing (that gives you an hour of cloud computing) is fun. Change last digit and see people exploring.
+@Demize99 also, thank you for bringing the AUG back. Makes me very happy :-)
+@JurieOnGames … new but did not solve all of the same problems (mostly that it worked on windows without problems).
+@JurieOnGames overall it's unfortunately very grim because somewhere along the line someone replaced easy_install with a solution that was …
+@JurieOnGames it used to be worse. virtualenv under windows works quite well if you use easy_install instead of pip.
+@SupergiantGames great news that it comes for steam play as well. Still very unhappy with id for not releasing the rage for mac on steam.
+@LuitvD &lt;3
+Speaking of bad design: ubuntu unity is still ugly :-(
+Context for the tweet about “Dear Python, Why Are you so ugly?”: http://t.co/Ay65o5kT
+@hynek that's part of the reason why I think encouraging people to learn some sort of design is good.
+But that post is incredible selective. There are a bunch of well designed Python library websites out there.
+if the “Python Why are you so ugly” post would encourage people to invest some time into making websites beautiful, then I'm all for it.
+/r/battlefield3 moderation log the moment the new battlefield3 trailer was released: http://t.co/hh8lXL2e
+@KarthikDot @stevelosh depends on what you have to do. I find HtmlUnit reliable enough and if it's without JS just parse html with html5lib.
+I have to say, @casperjs_org is a darn cute project twitter account. Kudos!
+@casperjs_org unfortunately you don't solve my problem because i need to test a rather complex javascript handshake with different browsers.
+Watching selenium do its thing is a mesmerising process. If only it would be faster :-(
+@pixelmager @geeks3d oh god yes! This makes me very happy :)
+@thrmoptc noes!
+Some context: Google managed to lose my reply, mailed me from two different departments who knew nothing of each other. All form letters.
+Not surprised devs go with Facebook these days. Their hiring department seems a lot more competent and responsive than Google's.
+Am I understanding that correctly that Python 3 CD only release of ubuntu 12.10 is not happening?
+@pumpichank does the python executable still point to 2.7? Also, how does Python 3 and 2.7 coexist? (For server installations)
+Aww. So cute seeing the internet freak out over terms of services again.
+@Demize99 god bless the recent change page :-)
+@CRYTEK_TIAGO that looks seriously impressive.
+I think it's slowly getting to the point where I have to assume the Flask theme is public domain. Just spotted it on http://t.co/RRUaSVht
+@kennethreitz http://t.co/vfYgyOVH is all you ever need.
+@oberhamsi @JurieOnGames UI != battle log. The UI is written in Flash (scaleform), the website is Python/JavaScript and done by ESN/DICE.
+@kennethreitz werkzeug.UserAgent :P
+@gabegundy the .dmg contains a python interpreter and a bunch of bytecode.
+Google Drive is using Python. As in CPython 2.6.
+Neato. Opeths' cover of “Den Standiga Resan” from the Watershed Special Edition is on Spotify: http://t.co/XsDQsxGk
+@ncoghlan_dev @holdenweb @raymondh … let's go shopping? :P
+@garybernhardt some python guy did the same with "python -mordor" :-/
+@mitchellh we're still working on making in less magical :-) But it's unfortunately a balancing act between magic and crappy API :-(
+How the hell did I manage to get 4000 twitter followers and 1000 of those on github. That all feels so unreal. Thanks everybody.
+Mindfuck. Armin Rigo wrote QuArK a map editor for Quake and others for which @paniq apparently made an icon set. O_o
+Microsoft has a patent to improve the search results based on level of education. Bravo society: http://t.co/FrX7G4If
+dyno manifold is a vast execution environment […]. Think of it as a giant, distributed, fault-tolerant, horizontally scalable […] in the sky
+Cool to see Flask being used in the “‘Other’ Windows Azure Introduction”: http://t.co/5VpmXHTw (via @digibawb)
+I admit that I love multiple inheritance a whole lot, but this … this is going too far: http://t.co/jQY42DkB
+@hpk42 i don't sell my open source stuff, so i don't really think about that. My POV is making open source and selling services based on it.
+@hpk42 BSD/MIT work for me, I don't have to care about too much legalese and that makes me a happy man. Worry free :-)
+@hpk42 i much prefer closed source libraries over gpl libraries because they have less restrictions in using them. You *can* license them.
+@hpk42 i believe into trusting people to do the right thing and don't want to force people into some licensing scheme. Enter MIT/BSD
+“GPL, copyleft use declining faster than ever” — http://t.co/s2rhRY6M \o/
+@juanplopes @argentinomota worth it. Other languages are doing just fine with it.
+@alex_gaynor ?
+@alex_gaynor dumps/loads json for instance.
+@alex_gaynor the fact alone that emit_dict(parse_dict()) does not result in the same order is stupid for caching.
+@alex_gaynor so how would you iterate over the hashmap otherwise?
+@alex_gaynor consistent iteration behaviour is important, extra memory usage for keeping the insertion order in memory is negligible.
+If you design a new language: make hash maps ordered by insertion time. Solves so many problems right from the get go.
+The fact that diablo III's launcher is running with root rights is slightly concerning.
+@brettsky @holdenweb yes, yes. I should.
+I now have actively participated in the downfall of blackberry by "sneaking" into their devslovebacon party.
+I just received proper Austrian Speck!
+I probably should start learning iterating on text instead of throwing it away.
+By now I have like five unpublished blog posts and three internal mails sitting around which I don't know if I want to publish/share.
+@asolovyov it does that for me in firefox O_o
+TIL: window in JavaScript behaves as if it was an Array. A weird one: http://t.co/oIH7J8aF
+@kennethreitz hipster
+@kumar303 happens in multiple different firefox versions on different operating systems.
+OH: Why is everybody ginger in the face?
+@kuramanga seems to be related to this: https://t.co/urNFBEpD
+@kuramanga POST to https which then redirects to another https resource. No file uploads, just one single field. Also cookies.
+I have a mysterious case where a POST request from a http page to an https page that involves a redirect stalls Firefox. Reproducible. :-(
+@stevelosh will give you a tweet or something tomorrow after work. We're still busy with website launch and everything :-)
+Website launch went pretty smooth, now to python stuff :)
+@RiFGamers it's a timed exclusive for iOS and no other platforms have been announced. As an Android user I hope as well :-)
+@RiFGamers keep in mind there is an unannounced free to play pc title coming up later this year :-)
+@roberts_brendan we have not announced any other platforms yet :-)
+@RiFGamers why what part? The iOS part of the free to play part?
+@bhagany yeah, I will be doing that at one point. Just making sure first it's bulletproof. :-)
+If you're curious about what we're doing, @PaulWedgwood talks about the future of our companies on gamasutra: http://t.co/dWRQLZmy
+Yay. PHP is crashing :-(
+Interesting implementation fact: the login/account pages are behind HTTPS and the cookie never goes to HTTP. Uses frames for session sync.
+What we're up to (Fireteam/Splash Damage/WarChest) currently: a free to play iOS game http://t.co/C3m3NspG \o/
+@garybernhardt he is wrong on the tab thing though. Firefox has disabling of tabs in the options menu and it remembers it after upgrading.
+Cross-domain session synchronisation makes me warm and fuzzy inside. I'm a weird person.
+Yes you can execute things on fork in uwsgi: http://t.co/7PBHPo5P \o/
+Does anyone know if you can execute code if uwsgi forks for the workers?
+@krak3n there is no way to be compliant with the law. BT for instance uses cookies to implement the opt-in mechanism :P
+I wonder when the first smart-ass starts using local storage to implement the cookie opt-in mechanism :P
+@krak3n EU law no country but UK has adopted to the best of my knowledge.
+God. The british cookie law makes me rage. So damn stupid.
+The metro c++ overview is quite interesting. Unfortunate to see that OpenGL is out but it makes sense. http://t.co/mlCXGmsI
+Why is it so hard for programmers to follow the simple rule "decode on input, encode on output". It's so simple to follow :-(
+Ignore my question. $ matches *before* the newline, it does not include it.
+Why does it behave this way?
+
+&gt;&gt;&gt; re.match('^x*$', '\n')
+&lt;_sre.SRE_Match object at 0x1064b5e68&gt;
+@stevelosh direct file to the source tar ball: http://t.co/kdHkYRYy
+@stevelosh debian has you covered. sort of: http://t.co/omc6gIvP
+Looks like the previously retweeted article might be bullshit if you look at the comments: http://t.co/8rWyUl0I
+Dem French: “Coordinated Universal Time is now UTC.  English proposed CUT, while French proposed TUC. The compromise that emerged was UTC”
+No day like launch day.
+OS X's terminal should really remember environment variables if it restores. The current restore behaviour is pointless.
+@secretglyph neato. Not sure how i missed hat. Thanks!
+The side effects of German post World War II education: people flag the name "king of jews" as "inappropriate": http://t.co/heJ7tYmb
+Considering how much time I wasted to make this run w/ puppet I can probably install it once a month for a year by hand and still be faster
+@LuitvD if you want to speak to an ski server, how do you do it in python 2?
+Meh. Python 2.x does not support SNI.
+@fabiankochem_ep good point. i should!
+That actually might be conspiracy on my part here. Looks like the album is still just up fro preordering. Probably released by accident.
+@ardrigh @polytron i actually am part of the crowd that thinks rippping individual pieces out of an album is wrong :-)
+I can kind of understanding pulling content from spotify to help album sales, but it still feels like the wrong thing to do (cc @Polytron)
+Paying for all champs in LoL means paying 430 EUR. Or 7 full price titles. Yay for free to play business models.
+http://t.co/FavDoe2E has the uptime of a potato. :-/

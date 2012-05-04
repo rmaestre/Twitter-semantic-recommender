@@ -21,12 +21,20 @@ def get_corpus(user_screenname):
 #user = 'jgpachon07'
 #user = 'CARmeleOLMOS'
 #user = '@Paulek6'
-user = 'runnersvszombie'
-f_corpus= file('data/%s.tsv' % user , 'a')
-corpus = get_corpus(user) 
-for twett in corpus:
-    print twett
-    f_corpus.write('%s\n' % (twett.encode('utf-8')))
-f_corpus.close
+# user = 'runnersvszombie'
+
+# users = ['greghoweguitar', 'chickenfootjoe', 'Richie_Kotzen', 'stevelukather', 'AlexSkolnick',
+#          'mitsuhiko', 'zeeg', 'raymondh', 'chrismcdonough', 'kennethreitz']
+
+users = ['daveweiner', 'JBONAMASSA', 'tonymacalpine', 'peterframpton', 'vurnt22',
+         'gsiegman', 'kantrn', 'alex_gaynor', 'pumpichank', 'jpellerin']
+
+for user in users:
+    print "Retrieving tweets for %s" % user
+    f_corpus= file('data/%s.tsv' % user , 'a')
+    corpus = get_corpus(user) 
+    for twett in corpus:
+        f_corpus.write('%s\n' % (twett.encode('utf-8')))
+    f_corpus.close
 
 
